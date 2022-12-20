@@ -1,0 +1,100 @@
+:global(.vtex-flex-layout-0-x-flexCol--wrapper__column) .departmentList{
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    height: 100%;
+
+    gap: 10px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--wrapper__column) .container{
+    background-color: transparent;
+    height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--wrapper__column) .container .departmentLink {
+  font: normal normal normal 14px/20px Poppins Regular;
+    color: #979797;
+    text-decoration: inherit;
+    text-align: initial;
+}
+:global(.vtex-flex-layout-0-x-flexCol--wrapper__column) .itemContainer--category {
+  display: none !important;
+}
+.firstLevelLink {
+  color: #fff;
+  font: normal normal normal 12px/20px Poppins Regular;
+}
+.firstLevelList {
+  padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--wrapper__column) .container .departmentLink:hover {
+  color: #272D60;
+}
+@media (max-width: 991px) {
+  :global(.vtex-store-drawer-0-x-drawer) .container{
+    display: block;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 2rem 0;
+}
+
+:global(.vtex-store-drawer-0-x-drawer) .departmentList{
+    height: 100%;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer{
+    padding: 12px 0;
+    border-bottom: 1px solid #fff;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top:0!important;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .firstLevelList{
+    padding: 0;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .departmentLink,
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
+    font: normal normal normal 14px/20px Poppins Regular;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    text-transform: uppercase;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
+    color: #fff;
+    text-transform: capitalize;
+    /* letter-spacing: 2.38px; */
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child{
+    border-top: 1px solid #fff;
+    order: initial;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child .departmentLink{
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child .departmentLink::before{
+    display: none;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .submenuItem{
+    width: 100%;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .section--category,
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .firstLevelLink{
+    padding-left: 0;
+}
+
+
+}
+

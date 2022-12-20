@@ -1,0 +1,59 @@
+.container{
+    background: #002D71;
+
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+ .departmentLink{
+  padding: 0;
+  border: none!important;
+  font: normal normal 600 14px/21px Poppins Regular;
+  color: #FFFFFF;
+}
+
+.itemContainer--category{
+    z-index: 9 !important;
+    background: #002D71;
+    width: auto;
+    left: auto;
+    transition: all .4s linear;
+}
+
+@media (min-width: 1100px) {
+  .departmentLink {
+    padding: 0 2rem;
+  }
+  .submenuList {
+    display: block;
+    column-count: 3;
+  }
+  .itemContainer--category{
+    z-index: 2;
+    width: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    transform: translate(-50%);
+    padding-bottom: 7rem;
+  }
+  .submenuItem {
+    width: 100%;
+  }
+  .itemContainer {
+    max-height: 52.875rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexRowContent--main-header-mobile {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 991px) {
+  .itemContainer {
+    max-height: fit-content;
+  }
+}

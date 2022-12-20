@@ -1,0 +1,55 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: start;
+  padding: 1rem;
+}
+
+.brandName {
+  font: normal normal 16px/21px Poppins Regular;
+  color: #202020;
+}
+
+.container {
+  text-align: start;
+
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+
+.containerNormal:hover {
+  box-shadow: 0px 3px 6px #00000029;
+}
+.containerNormal {
+  transition: all .3s linear;
+}
+
+@media screen and (min-width: 1100px) {
+  .productNameContainer {
+    height: 42px;
+    overflow: hidden;
+  }
+}

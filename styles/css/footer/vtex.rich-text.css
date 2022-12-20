@@ -1,0 +1,64 @@
+.heading--footer__title{
+    margin: 0 0 20px;
+
+    font: normal normal 400 19px/25px Poppins SemiBold;
+  color: #272D60;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--wrapper__assinatura) .container--text__copyright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.container--text__copyright{
+    color: #b1b1b1;
+    font: 300 14px/28px Poppins Regular;
+
+}
+.paragraph--text__copyright{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.wrapper--textoloja {
+  font: normal normal 300 14px/18px Poppins Regular;
+  color: #202020;
+  text-align: center;
+}
+.strong--rodapelinks {
+  font: normal normal 14px/28px Poppins Bold;
+  color: #272D60;
+}
+.link--rodapelinks, .paragraph--rodapelinks {
+  font: normal normal normal 14px/20px Poppins Regular;
+  color: #979797;
+  text-decoration: inherit;
+}
+.link--rodapelinks:hover, .paragraph--rodapelinks:hover {
+  color: #272D60;
+}
+
+.paragraph--rodapelinks {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-align: initial;
+}
+
+.container--footer__cat {
+  justify-content: center;
+  width: 90%;
+}
+@media (max-width: 991px) {
+  .container--text__copyright {
+    justify-content: center;
+  }
+  .container--redesocialmob {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .paragraph--rodapelinks {
+    text-align: center;
+  }
+}

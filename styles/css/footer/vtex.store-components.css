@@ -1,0 +1,13 @@
+.imageElementLink--iconrede {
+  margin: 0 0.2rem;
+}
+@media (max-width: 991px) {
+  .imageElement--safeimggoogle {
+    width: 110px;
+  }
+  .imageElement--image__sale {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+
+}

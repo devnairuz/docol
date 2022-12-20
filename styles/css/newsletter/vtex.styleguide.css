@@ -1,0 +1,23 @@
+:global(.vtex-styleguide-9-x-noAppearance){
+    background-color: #fff!important;
+    border: none;
+    color: #000 !important;
+    font: normal normal normal 13px/23px Poppins Regular;
+    border-radius: 0;
+}
+
+:global(.vtex-styleguide-9-x-noAppearance)::placeholder{
+    font: normal normal normal 13px/23px Poppins Regular;
+    color: #D0D0D0 !important;
+}
+:global(.vtex-input-prefix__group) {
+  border-radius: 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+  :global(.vtex-styleguide-9-x-noAppearance)::placeholder {
+    font: normal normal normal 10px/23px Poppins Regular;
+  }
+
+}

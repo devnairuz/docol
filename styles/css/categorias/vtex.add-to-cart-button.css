@@ -1,0 +1,11 @@
+.buttonText--buyNow{
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--wrapper__product-actionsC ) :global(.vtex-button){
+    background-color: #F48120 !important;
+    border: none;
+}
+.buttonText--button__buyC {
+  color: #fff;
+}

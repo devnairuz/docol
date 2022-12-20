@@ -1,0 +1,16 @@
+.container--listLayout{
+    max-width: 100%!important;
+}
+
+/* FORMATO DE GRID */
+:global(.vtex-search-result-3-x-galleryItem--grid) .element{
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    height: 525px;
+}
+@media (max-width: 991px) {
+  .clearLink {
+    margin-bottom: 3rem;
+  }
+}
+/* FORMATO DE LISTA */

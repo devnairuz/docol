@@ -1,0 +1,117 @@
+:global(.vtex-flex-layout-0-x-flexRow--wrapper__footer){
+    margin: 40px auto!important;
+}
+
+.flexCol--column__descriptions{
+    padding: 10px;
+    background: #EFEFEF;
+}
+
+.flexColChild--wrapper__column{
+    height: auto!important;
+}
+
+.flexCol--wrapper__column {
+  align-items: initial;
+  text-align: center;
+}
+
+.flexRowContent--wrapper__icons{
+    justify-content: flex-end;
+}
+/* ICONES */
+.flexRowContent--wrapper__icons .stretchChildrenWidth{
+    width: 24.5555%!important;
+}
+
+.flexColChild--wrapper__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--seloscontrole {
+  justify-content: center;
+}
+
+/* Copyright */
+.flexRow--wrapper__copy{
+    margin: 40px auto 0!important;
+    padding: 10px 0;
+    border-top: .5px solid #b1b1b1;
+}
+.flexRow--whatsfixed {
+  position: fixed;
+    bottom: 90px;
+    right: 40px;
+    z-index: 1;
+}
+.flexRowContent--wrapper__copy {
+  align-items: center;
+}
+.flexCol--wrapper__assinatura {
+  text-align: end;
+  position: relative;
+}
+.flexCol--imagem1 {
+  position: relative;
+}
+.flexCol--wrapper__assinatura::before {
+  content: 'Plataforma';
+    color: #979797;
+    text-transform: initial;
+    font: normal normal 300 14px/13px Poppins Regular;
+    position: absolute;
+    right: 100px;
+    top: 6px;
+}
+
+.flexCol--imagem1::before {
+  content: 'Design';
+    color: #979797;
+    text-transform: initial;
+    font: normal normal 300 14px/13px Poppins Regular;
+    position: absolute;
+    right: 100px;
+    top: 6px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flexRow--wrapper {
+    width: 100% !important;
+  }
+  .flexRow--deals, .flexRow--controleinstagram, .flexCol--wrapper__assinatura::before {
+    display: none;
+  }
+  .flexRow--wrapper__footer, .flexRow--wrapper__icons {
+    display: contents;
+  }
+  .flexRowContent--redesocial {
+    display: flex;
+    text-align: center;
+  }
+  .flexCol--wrapper__assinatura {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .flexRow--deals, .flexRow--controleinstagram, .flexCol--wrapper__assinatura::before, .flexCol--imagem1::before {
+    display: none;
+  }
+  .flexRow--wrapper__footer, .flexRow--wrapper__icons {
+    display: contents;
+  }
+  .flexRowContent--wrapper__icons .stretchChildrenWidth, .flexRow--wrapper__copy{
+    width: 100%!important;
+  }
+  .flexRowContent--redesocial {
+    display: flex;
+    text-align: center;
+  }
+  .flexCol--wrapper__assinatura {
+    text-align: center;
+  }
+
+}

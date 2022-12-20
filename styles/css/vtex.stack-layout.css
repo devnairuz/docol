@@ -1,0 +1,11 @@
+.stackItem--product {
+  width: 100%;
+  min-height: 257px;
+  z-index: 0 !important;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}

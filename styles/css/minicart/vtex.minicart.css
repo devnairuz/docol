@@ -1,0 +1,37 @@
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #F48120;
+    border: none;
+    font: normal normal normal 18px/17px Poppins Regular;
+    color: #FFFFFF;
+}
+.minicartIconContainer::after {
+  content: 'Meu Carrinho';
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left: 2.6rem;
+    top: 5px;
+    color: #202020;
+    text-transform: initial;
+    text-align: left;
+    font: normal normal 300 15px/13px Poppins Regular;
+}
+
+.minicartQuantityBadge {
+  background: #002D71;
+  top: -0.2rem;
+  right: 0.2rem;
+}
+
+.minicartIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+
+@media (max-width: 991px) {
+  .minicartIconContainer::after {
+    display: none;
+  }
+}

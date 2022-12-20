@@ -1,0 +1,20 @@
+.container--listLayout{
+    max-width: 100%!important;
+}
+.spacer--grid_espaco {
+  height: 30px;
+    flex-grow: inherit;
+}
+/* FORMATO DE GRID */
+:global(.vtex-search-result-3-x-galleryItem--grid) .element{
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    height: 525px;
+}
+.containerNormal {
+  position: relative;
+}
+:global(.vtex-product-summary-2-x-buyButtonContainer) .bg-action-primary.b--action-primary {
+  background-color: #002D71;
+}
+/* FORMATO DE LISTA */

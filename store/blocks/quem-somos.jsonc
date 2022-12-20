@@ -1,0 +1,28 @@
+{
+  "store.custom#quem-somos": {
+    "children": [
+      "flex-layout.row#quem-somos"
+    ]
+  },
+  "flex-layout.row#quem-somos": {
+    "children": ["flex-layout.col#conteudoquem"]
+  },
+  "flex-layout.col#conteudoquem": {
+    "children": ["rich-text#quem-title","rich-text#sobrequemsomos"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#quem-title": {
+    "props": {
+      "text": "# Quem Somos"
+    }
+  },
+  "rich-text#sobrequemsomos": {
+    "props": {
+      "text": "A **Krauer** é uma parceira da empresa Lotus Comercial que atua no mercado há 14 anos.  Está localizada no estado do Espírito Santo e conta com uma estrutura de armazenamento de mais de 3.500 metros quadrados, servidores e softwares de última geração e profissionais capacitados e dedicados a oferecer aos clientes **Krauer** excelente experiência e satisfação assegurada, inclusive pela garantia exclusiva de 12 meses para todos os produtos.\n \n Graças à grande experiencia do Grupo Lotus, a **Krauer** oferece extensa variedade de ferramentas e utilidades, fabricadas de acordo com rigorosos padrões de qualidade, com design, desempenho e acabamento equivalentes às melhores marcas internacionais. ",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store.custom#garantia": {
+    "children": [
+      "flex-layout.row#garantia"
+    ]
+  },
+  "flex-layout.row#garantia": {
+    "children": ["flex-layout.col#garantiaconteudo"]
+  },
+  "flex-layout.col#garantiaconteudo": {
+    "children": ["rich-text#garantia-title", "rich-text#sobregarantia", "rich-text#sobregarantia--exclusiva", "rich-text#sobregarantia--solicitar"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#garantia-title": {
+    "props": {
+      "text": "# Garantia"
+    }
+  },
+  "rich-text#sobregarantia": {
+    "props": {
+      "text": "### O que é a Garantia Exclusiva Krauer?\nGarantimos aos nossos clientes que dentro do período de 12 meses, faremos a troca do seu produto caso seja identificado qualquer defeito de fabricação.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+  "rich-text#sobregarantia--exclusiva": {
+    "props": {
+      "text": "### Por que oferecemos e por que é exclusiva?\nEsse é um compromisso que assumimos por termos a certeza da qualidade, durabilidade, segurança e alto desempenho dos nossos produtos e entendemos que devemos estar lado a lado dos nossos clientes em toda a sua experiência com nossos produtos. É exclusiva porque o mercado oferece 3 meses padrão de garantia, mas nós da Krauer, vamos além e deixamos o cliente tranquilo durante um ano inteiro.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+  "rich-text#sobregarantia--solicitar": {
+    "props": {
+      "text": "### Como solicitar a garantia Exclusiva?\nVocê deverá entrar em contato através do **Whatsapp 27 99869-0685** ou pelo e-mail sac@krauer.com.br, enviando fotos do produto mostrando o defeito e apresentando a nota fiscal, para que possamos prosseguir com o processo de troca.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

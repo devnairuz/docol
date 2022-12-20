@@ -1,0 +1,32 @@
+.galleryLayoutSwitcher {
+  display: none;
+}
+.searchResultContainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer) .galleryItem--grid{
+    flex-basis: 33% !important;
+    max-width: 33% !important;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore--layout) :global(.vtex-button) {
+  padding: 10px 20px;
+  background-color: #002D71 !important;
+  border-radius: 10px;
+}
+
+@media(max-width: 991px) {
+  :global(.vtex-search-result-3-x-searchResultContainer) .galleryItem--grid{
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  .searchNotFoundInfo {
+    padding: 1rem;
+  }
+  :global(.vtex-search-result-3-x-buttonShowMore--layout) :global(.vtex-button) {
+    margin-bottom: 2rem;
+  }
+
+}

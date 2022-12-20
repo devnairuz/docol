@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#mosaico_baixo":{
+        "props": {"blockClass": "wrapper__mosaicos"},
+        "children": [
+            "flex-layout.col#mosaico_baixo-one",
+            "flex-layout.col#mosaico_baixo-two"
+        ]
+    },
+
+
+    // MOSAICO 1
+    "flex-layout.col#mosaico_baixo-one":{
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo"]
+        },
+        "children": ["image#baixo-one"]
+    },
+    "image#baixo-one":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-baixo/inferior_01.png",
+            "link": {
+              "url": "/ferramentas"
+            }
+        }
+    },
+
+    // MOSAICOS 2 E 3
+    "flex-layout.col#mosaico_baixo-two": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo-duplo"]
+        },
+        "children": ["image#baixo-two", "image#baixo-three"]
+    },
+    "image#baixo-two":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-baixo/inferior_02.png",
+            "link": {
+              "url": "/ferramentas"
+            }
+        }
+    },
+    "image#baixo-three":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-baixo/inferior_03.png",
+            "link": {
+              "url": "/ferramentas"
+            }
+        }
+    }
+}

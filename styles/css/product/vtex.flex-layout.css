@@ -1,0 +1,37 @@
+.flexRowContent--productSpecificationGroup {
+  display: none;
+}
+.flexRow--titulo__especificacao {
+  background: #E6E6E6;
+}
+.flexRowContent--titulo__especificacao, .flexRow--container-breadcrumb, .render-route-store-account .vtex-account {
+  max-width: 1214px;
+    margin: 0 auto;
+}
+.flexRowContent--titulo__especificacao {
+  padding: 2rem 0;
+}
+
+@media (min-width: 1025px) {
+  .flexRow--wrapper__product-actions {
+    position: absolute;
+    bottom: 10px;
+    left: 13px;
+    width: 90%;
+  }
+  .flexColChild--wrapper__right {
+    display: flex;
+  }
+}
+
+:global(.vtex-product-context-provider) .wishproduto {
+  justify-content: initial;
+}
+.flexRow--mini-descricao {
+  font: normal normal 15px/23px Poppins Regular;
+    color: #7E7E7E;
+    margin: 1rem 0;
+    width: 80%;
+
+}
+

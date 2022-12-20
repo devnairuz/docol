@@ -1,0 +1,29 @@
+{
+  "store.custom#fale-conosco": {
+    "children": [
+      "flex-layout.row#fale-conosco"
+    ]
+  },
+  "flex-layout.row#fale-conosco": {
+    "children": ["flex-layout.col#faleconteudo"]
+  },
+  "flex-layout.col#faleconteudo": {
+    "children": ["rich-text#fale-title", "rich-text#faleconosco"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#fale-title": {
+    "props": {
+      "text": "# Fale Conosco"
+    }
+  },
+  "rich-text#faleconosco": {
+    "props": {
+      "text": "CNPJ: 45.841.248/0001-13 \n\n Razão Social: KRAUER COMERCIO ELETRONICO LTDA \n\n Endereço: R PORTO DE PRAIA MOLE, SN – QD 004 – LOTE 003 – CIVIT 1 – SERRA – ES – CEP:29168-005 \n\n Telefone: [(27) 3298.8730](tel:2732988730) -  WhatsApp: [(27) 99869.0685](https://api.whatsapp.com/send?phone=5527998690685)\n\n E-mail: [contato@krauer.com.br](mailto:contato@krauer.com.br).\n\n",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+
+}

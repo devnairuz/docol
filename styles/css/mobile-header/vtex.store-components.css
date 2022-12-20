@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    width: 100% !important;
+  }
+  :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group),
+  :global(.vtex-store-components-3-x-inputGroup) :global(.vtex-input-prefix__group) {
+    border-radius: 10px;
+  }
+  :global(.vtex-numeric-stepper-container) {
+    justify-content: center;
+  }
+  .logoLink {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 991px) {
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    width: 100% !important;
+  }
+  :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group),
+  :global(.vtex-store-components-3-x-inputGroup) :global(.vtex-input-prefix__group) {
+    border-radius: 10px;
+  }
+  :global(.vtex-numeric-stepper-container) {
+    justify-content: center;
+  }
+  .imageElement--whatskrauer {
+    width: 30px;
+  }
+
+}

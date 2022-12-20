@@ -1,0 +1,50 @@
+/* PÁGINA DE PESQUISA */
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+  margin: 0!important;
+}
+:global(.vtex-numeric-stepper__plus-button__text),
+:global(.vtex-numeric-stepper__minus-button__text){
+  color: #000;
+}
+@media (min-width: 1025px) {
+  :global(.vtex-numeric-stepper__plus-button-container){
+    position: absolute;
+    top: 2.5px;
+    right: 5px;
+  }
+  :global(.vtex-numeric-stepper__minus-button-container){
+    position: absolute;
+    bottom: 2.5px;
+    right: 5px;
+  }
+  :global(.vtex-numeric-stepper__minus-button),
+  :global(.vtex-numeric-stepper__plus-button){
+    border: 1px solid #D0D0D0!important;
+    border-radius: 0!important;
+    height: 16px!important;
+    width: 20px!important;
+    background-color: #D0D0D0!important;
+  }
+
+  :global(.vtex-numeric-stepper__input){
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector){
+  background-color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--buyNowButton) :global(.vtex-button){
+    background: #eee!important;
+}
+
+@media (max-width: 991px) {
+  .imageElementLink--iconrede {
+    width: 70%!important;
+    margin: 0 !important;
+  }
+}

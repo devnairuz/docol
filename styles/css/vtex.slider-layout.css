@@ -1,0 +1,69 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderArrows--carousel {
+  display: none;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  min-height: 550px;
+}
+
+.caretIcon--carousel{
+  background-color: #fff;
+  border: 5px;
+  padding: 13px;
+
+  box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 60%);
+}
+.paginationDot--carousel--isActive {
+  border: 1px solid #F48120;
+}
+.paginationDot--carousel {
+  background: #FFF5F5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000061;
+}
+.sliderRightArrow, .sliderLeftArrow {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.paginationDotsContainer--shelf, .slide--sliderbene, .sliderLayoutContainer--sliderbene {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .paginationDotsContainer--sliderbene, .sliderArrows--sliderbene {
+    display: none;
+  }
+  .sliderLayoutContainer--sliderbene, .slide--sliderbene {
+    display: block;
+  }
+  .slide--sliderbene {
+    padding: 2rem 0;
+  }
+}

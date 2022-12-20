@@ -1,0 +1,13 @@
+{
+  "wishlist-button": {
+    "component": "WishlistButtonWrapper"
+  },
+
+  "footer-custom": {
+    "component": "FooterCustomWrapper"
+  },
+
+  "product-custom": {
+    "component": "ProductContext"
+  }
+}

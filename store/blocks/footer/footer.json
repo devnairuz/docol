@@ -1,0 +1,473 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#controleinsta",
+      "flex-layout.row#newslettermobile",
+      "flex-layout.row#footer",
+      "flex-layout.row#footer_pagamento",
+      "flex-layout.row#footer_copyright",
+      "flex-layout.row#footer-whats"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#controleinsta",
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer",
+      "flex-layout.row#footer_pagamento",
+      "flex-layout.row#footer_copyright",
+      "flex-layout.row#footer-whats"
+    ]
+  },
+  "flex-layout.row#newslettermobile":{
+    "props": {"blockClass": "wrapper__newsletter"},
+    "children": ["flex-layout.col#newsecao"]
+  },
+  "flex-layout.col#newsecao": {
+    "children": ["image#image_newslettermobile", "newsletter#mobile"]
+  },
+  "image#image_newslettermobile":{
+    "props": {
+      "alt": "paper and plane",
+      "src": "assets/footer/paper-plane-krauer.svg",
+      "blockClass": "paperplane"
+    }
+  },
+
+  "newsletter#mobile":{
+    "props": {
+      "label": "Assine nossa newsletter e fique por dentro de tudo!",
+      "placeholder": "Digite aqui seu e-mail",
+      "submit": "Cadastrar",
+      "blockClass": "newsletter__block"
+    }
+  },
+  "flex-layout.row#footer-whats": {
+    "children": ["image#whats"],
+    "props": {
+      "blockClass": "whatsfixed"
+    }
+  },
+  "image#whats": {
+    "props": {
+      "src": "assets/footer/logo-whatsapp.svg",
+      "blockClass": "whatskrauer",
+      "link": {
+         "url": "https://api.whatsapp.com/send?phone=5527998690685",
+         "title": "whats logo",
+         "newTab": true
+      }
+    }
+  },
+  "flex-layout.row#newsletter":{
+    "props": {"blockClass": "wrapper__newsletter"},
+    "children": ["image#image_newsletter", "newsletter"]
+  },
+  "image#image_newsletter":{
+    "props": {
+      "alt": "paper and plane",
+      "src": "assets/footer/paper-plane-krauer.svg",
+      "horizontalAlign": "center",
+      "blockClass": "newsimg"
+    }
+  },
+
+  "newsletter":{
+    "props": {
+      "label": "Assine nossa newsletter e fique por dentro de tudo!",
+      "placeholder": "Digite aqui seu e-mail",
+      "submit": "Cadastrar",
+      "blockClass": "newsletter__block"
+    }
+  },
+
+  "flex-layout.row#footer":{
+    "props": {
+      "blockClass": ["wrapper__footer", "wrapper"],
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#footer__description-col",
+      "flex-layout.col#footer__category",
+      "flex-layout.col#footer__institucional",
+      "flex-layout.col#footer__atendimento"
+    ]
+  },
+
+  "flex-layout.col#footer__description-col":{
+    "props": {
+      "blockClass": ["column__descriptions"],
+      "horizontalAlign": "center"
+    },
+    "children": ["image#footer-logo", "rich-text#text-description", "flex-layout.row#redessociais"]
+  },
+  "image#footer-logo":{
+    "props": {
+      "src": "assets/header/logo.png",
+      "alt": "Logo",
+      "link": "/",
+      "width": 200,
+      "height": 100
+    }
+  },
+  "rich-text#text-description":{
+    "props": {
+      "text": "Graças à grande experiencia do Grupo Lotus, a Krauer oferece extensa variedade de ferramentas e utilidades, fabricadas de acordo com rigorosos padrões de qualidade, com design, desempenho e acabamento equivalentes às melhores marcas internacionais.",
+      "textAlignment": "center",
+      "blockClass": "textoloja"
+    }
+  },
+  "flex-layout.row#redessociais": {
+    "children": ["image#insta", "image#face", "image#linkedin", "image#youtube"],
+    "props": {
+      "blockClass": "redesocial"
+    }
+  },
+  "image#insta": {
+    "props": {
+      "src": "assets/redes-sociais/icon-instagram.svg",
+      "link": {
+        "url": "https://www.instagram.com/krauerstore/",
+        "newTab": true
+     },
+      "blockClass": "iconrede"
+    }
+  },
+  "image#face": {
+    "props": {
+      "src": "assets/redes-sociais/icon-facebook.svg",
+      "link": {
+        "url": "https://www.facebook.com/krauerstore",
+        "newTab": true
+     },
+     "blockClass": "iconrede"
+    }
+  },
+  "image#linkedin": {
+    "props": {
+      "src": "assets/redes-sociais/icon-linkedin.svg",
+      "link": {
+        "url": "https://www.linkedin.com/company/krauer-com%C3%A9rcio-eletr%C3%B4nico-ltda/",
+        "newTab": true
+     },
+     "blockClass": "iconrede"
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "assets/redes-sociais/icon-youtube.svg",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCbMaLVj9D56ijx5uWf_cyCA",
+        "newTab": true
+     },
+     "blockClass": "iconrede"
+    }
+  },
+  "flex-layout.col#footer__category":{
+    "props": {
+      "blockClass": ["wrapper__column"],
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#title-category", "category-menu#footer_categ"]
+  },
+  "rich-text#title-category":{
+    "props": {
+      "text": "### **Categorias**",
+      "blockClass": ["footer__title", "footer__cat"]
+    }
+  },
+  "category-menu#footer_categ":{
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": false,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name",
+      "blockClass": "footer__menu"
+    }
+  },
+
+  "flex-layout.col#footer__institucional":{
+    "props": {
+      "blockClass": ["wrapper__column"],
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#title-institucional", "rich-text#text__faleconosco", "rich-text#quemsomos", "rich-text#garantia",
+  "rich-text#devolucao", "rich-text#privacidade"]
+  },
+  "rich-text#title-institucional":{
+    "props": {
+      "text": "### **Institucional**",
+      "blockClass": "footer__title"
+    }
+  },
+  "rich-text#text__faleconosco":{
+    "props": {
+      "text": "[Fale Conosco](/fale-conosco)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#quemsomos": {
+    "props": {
+      "text": "[Quem Somos](/quem-somos)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#garantia": {
+    "props": {
+      "text": "[Garantia](/garantia)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#devolucao": {
+    "props": {
+      "text": "[Devoluções e Trocas](/devolucoes-e-trocas)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#privacidade": {
+    "props": {
+      "text": "[Políticas de privacidade](/politicas-de-privacidade)",
+      "blockClass": "rodapelinks"
+    }
+  },
+
+  "flex-layout.col#footer__atendimento":{
+    "props": {
+      "blockClass": ["wrapper__column"],
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#title-atendimento", "rich-text#telefone","rich-text#whats", "rich-text#email","rich-text#cnpj", "rich-text#hatendimento"]
+  },
+  "rich-text#title-atendimento":{
+    "props": {
+      "text": "### **Atendimento**",
+      "blockClass": "footer__title"
+    }
+  },
+  "rich-text#telefone": {
+    "props": {
+      "text": "**Telefone:**\n [(27) 3298.8730](/tel:2732988730)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#whats":{
+    "props": {
+      "text": "**WhatsApp:**\n [(27) 99869.0685](https://api.whatsapp.com/send?phone=5527998690685)",
+      "link": {
+        "newTab": true
+      },
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#email":{
+    "props": {
+      "text": "**E-mail:**\n [sac@krauer.com.br](mailto:sac@krauer.com.br)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#cnpj": {
+    "props": {
+      "text": "**CNPJ:**\n 45.841.248/0001-13",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#hatendimento":{
+    "props": {
+      "text": "**Horário de Atendimento:**\n De Segunda à Sexta-feira:\n das 7h às 17h.",
+      "blockClass": "rodapelinks"
+    }
+  },
+
+  "flex-layout.row#footer_pagamento":{
+    "props": {
+      "blockClass": ["wrapper", "wrapper__icons"]
+    },
+    "children": [
+      "flex-layout.col#pagamento",
+      "flex-layout.col#seguranca",
+      "flex-layout.col#envio"
+    ]
+  },
+  "flex-layout.col#pagamento":{
+    "props": {
+      "blockClass": ["wrapper__icon"]
+    },
+    "children": [
+      "rich-text#pagamento",
+      "image#pagamento"
+    ]
+  },
+  "rich-text#pagamento":{
+    "props": {
+      "blockClass":["footer__title"],
+      "text": "### **Formas de pagamento**"
+    }
+  },
+  "image#pagamento": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/pagamento.png"
+    }
+  },
+
+
+  "flex-layout.col#seguranca":{
+    "props": {
+      "blockClass": ["wrapper__icon"]
+    },
+    "children": [
+      "rich-text#seguranca",
+      "flex-layout.row#selos",
+      "flex-layout.row#selos2"
+
+    ]
+  },
+  "flex-layout.row#selos2": {
+    "children": ["image#clearsale"],
+    "props": {
+      "blockClass": "seloscontrole"
+    }
+  },
+  "image#clearsale": {
+    "props": {
+      "blockClass": "image__sale",
+      "src": "assets/footer/clearsale-selo.png"
+    }
+  },
+  "flex-layout.row#selos": {
+    "children": ["image#seguranca", "flex-layout.col#seloskrauer"],
+    "props": {
+      "blockClass": "seloscontrole"
+    }
+  },
+
+  "rich-text#seguranca":{
+    "props": {
+      "blockClass":["footer__title"],
+      "text": "### **Selos de segurança**"
+    }
+  },
+  "image#seguranca": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/footer/ebit.png"
+    }
+  },
+  "flex-layout.col#seloskrauer": {
+    "children": ["image#safe", "image#blindado"]
+  },
+
+  "image#safe": {
+    "props": {
+      "src": "assets/footer/googlesafe.png",
+      "blockClass": "safeimggoogle"
+    }
+  },
+
+  "image#blindado": {
+    "props": {
+      "src": "assets/footer/siteblindado.png"
+    }
+  },
+
+  "flex-layout.col#envio":{
+    "props": {
+      "blockClass": ["wrapper__icon"]
+    },
+    "children": [
+      "rich-text#envio",
+      "image#envio"
+    ]
+  },
+
+  "rich-text#envio":{
+    "props": {
+      "blockClass":["footer__title"],
+      "text": "### **Formas de envio**"
+    }
+  },
+  "image#envio": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/footer/envio-novo.svg"
+    }
+  },
+
+  "flex-layout.row#footer_copyright": {
+    "props": {"blockClass": ["wrapper", "wrapper__copy"]},
+    "children": ["flex-layout.col#copyright_first", "flex-layout.col#copyright_second"]
+  },
+  "flex-layout.col#copyright_first":{
+    "children": ["rich-text#copy__info"]
+  },
+  "rich-text#copy__info":{
+    "props": {
+      "text": "Krauer® | Todos os direitos reservados.",
+      "blockClass": "text__copyright",
+      "textColor": "#b1b1b1"
+    }
+  },
+
+  "flex-layout.col#copyright_second":{
+    "props": {
+      "blockClass": "wrapper__assinatura"
+    },
+    "children": ["flex-layout.row#controlelogosrodape"]
+  },
+  "flex-layout.row#controlelogosrodape": {
+    "children": ["flex-layout.col#imagem1","flex-layout.col#imagem2"],
+    "props": {
+      "blockClass": "linha__infos"
+    }
+  },
+  "rich-text#design":{
+    "props": {
+      "text": "Design",
+      "blockClass": "text__copyright",
+      "textColor": "#b1b1b1"
+    }
+  },
+  "flex-layout.col#imagem1": {
+    "children": ["image#nairuz"],
+    "props": {
+      "blockClass": "imagem1"
+    }
+  },
+  "image#nairuz": {
+    "props": {
+      "src": "assets/nairuz.png",
+      "link": {
+        "url": "https://nairuz.com.br/",
+        "newTab": true
+      },
+      "blockClass": "nairuz__img"
+
+    }
+  },
+  "rich-text#plataforma":{
+    "props": {
+      "text": "Plataforma",
+      "blockClass": "text__copyright",
+      "textColor": "#b1b1b1"
+    }
+  },
+  "flex-layout.col#imagem2": {
+    "children": ["image#vtex"],
+    "props": {
+      "blockClass": "imagem2"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/footer/logovtex.svg",
+      "link": {
+        "url": "https://vtex.com/br-pt/",
+        "newTab": true
+      },
+      "blockClass": "vtex__img"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .cartIcon {
+    filter: brightness(9);
+  }
+}
+
+
+@media (max-width: 991px) {
+  .cartIcon {
+    filter: brightness(9);
+  }
+}

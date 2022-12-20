@@ -1,0 +1,27 @@
+{
+    "product-summary.shelf#categories": {
+      "children": [
+        "add-to-list-btn",
+        "stack-layout#prodsum",
+        "product-summary-name",
+
+        "product-summary-space",
+        "product-list-price#summary",
+        "flex-layout.row#selling-price-savings",
+        "product-installments#summary",
+        "flex-layout.row#actions-category"
+      ]
+    },
+    "flex-layout.row#actions-category": {
+      "props": {"blockClass": "wrapper__product-actionsC"},
+      "children": ["add-to-cart-button#categ"]
+    },
+    "add-to-cart-button#categ":{
+        "props": {
+            "onClickBehavior": "go-to-product-page",
+            "text": "Ver produto",
+            "blockClass": "button__buyC"
+        }
+    }
+
+  }

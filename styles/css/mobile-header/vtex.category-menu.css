@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+  .menuIcon,  .plusIcon, .closeIcon, .minusIcon {
+    color: #fff !important ;
+  }
+  .plusIcon, .minusIcon {
+    width: 10px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .menuIcon,  .plusIcon, .closeIcon, .minusIcon {
+    color: #fff !important ;
+  }
+  .plusIcon, .minusIcon {
+    width: 10px;
+  }
+}
+
+

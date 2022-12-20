@@ -1,0 +1,6 @@
+@media (min-width: 1025px) {
+  :global(.vtex-shelf-1-x-relatedProducts) {
+    max-width: 1214px;
+    margin: auto;
+  }
+}

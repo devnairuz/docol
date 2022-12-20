@@ -1,0 +1,28 @@
+{
+  "store.custom#devolucoes-trocas": {
+    "children": [
+      "flex-layout.row#devolucoes-trocas"
+    ]
+  },
+  "flex-layout.row#devolucoes-trocas": {
+    "children": ["flex-layout.col#devolucoesconteudo"]
+  },
+  "flex-layout.col#devolucoesconteudo": {
+    "children": ["rich-text#devolucoes-title","rich-text#sobredevolucoes"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#devolucoes-title": {
+    "props": {
+      "text": "# Devoluções e Trocas"
+    }
+  },
+  "rich-text#sobredevolucoes": {
+    "props": {
+      "text": "As trocas e devoluções de produtos podem ser realizadas em até 7 dias em caso de arrependimento. \n\n Para trocas e devoluções com problema de fabricação o prazo é de **12 meses.** \n\n **Cartão de Crédito:** O prazo é definido pela administradora do seu cartão. \n\n **Boleto Bancário:** O reembolso será feito na conta corrente do titular da compra em até 5 dias úteis, após o recebimento do produto na Krauer.\n\n\n **Solicitação:** \n\n Para solicitar seu pedido de troca, entre em contato com nossa Central de Relacionamento através do número [(27) 3298.8730](tel:2732988730) ou pelo e-mail [contato@krauer.com.br](mailto:contato@krauer.com.br).\n\n Imprima a etiqueta de transporte que você receberá por e-mail; \n\n ### Quando Recusar o Produto no Ato da Entrega \n\n Recuse o recebimento e escreva o motivo da recusa no verso do Danfe, caso ocorra alguma das situações abaixo:\n\n . Embalagem aberta ou avariada;\n . Produto avariado;\n . Produto em desacordo com o pedido;\n . Falta de acessórios.\n\n Se, ainda assim, você aceitar o produto, pedimos que entre em contato com a nossa central de atendimento em até 2 dias úteis. \n\n ### SAC \n\n Em caso de dúvidas, elogios, sugestões ou reclamações teremos o prazer em atendê-lo em nossa Central de Atendimento:\n\n Telefone: [(27) 3298.8730](/tel:2732988730)\n WhatsApp: [(27) 99869.0685](https://api.whatsapp.com/send?phone=5527998690685)\n E-mail: [contato@krauer.com.br](mailto:contato@krauer.com.br)   ",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

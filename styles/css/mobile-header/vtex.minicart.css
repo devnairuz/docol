@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+  .minicartQuantityBadge {
+    background: #F48120;
+  }
+  .minicartIconContainer::after {
+    color: #fff;
+  }
+}
+
+@media (max-width: 991px) {
+  .minicartQuantityBadge {
+    background: #F48120;
+  }
+}

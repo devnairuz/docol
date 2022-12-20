@@ -1,0 +1,63 @@
+.searchResultContainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* TITULO */
+.galleryTitle--layout{
+    font: normal normal 800 24px/35px Poppins Black;
+    color: #404C58;
+    margin: 0.4rem 0 0 4rem;
+}
+
+.orderByText{
+    font: normal normal 400 16px/25px Poppins Regular;
+    margin-right: 16px;
+}
+.filterPopupTitle{
+    text-transform: none;
+    position: relative;
+}
+.filterPopupTitle::after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    border: 1px solid #979899;
+    padding: 1rem 4.2rem;
+    left: 106px;
+}
+
+/* FILTRO DE PESQUISA */
+.filter__container--title,
+.filterSelected, .filter__container--selectedFilters{
+    display: none;
+}
+
+.filterContent :global(.vtex-checkbox__line-container ){
+    display: flex;
+    align-items: center;
+}
+.filterPopupArrowIcon{
+    padding-left: 2rem;
+}
+
+.filterTitleSpan{
+    color: #b1b1b1!important;
+    font: 400 20px/23px Poppins Regular;
+}
+:global(.vtex-checkbox__label){
+    color: #b1b1b1!important;
+    font: 400 16px/23px Poppins Regular;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+    width: 100% !important;
+  }
+}
+@media (max-width: 991px) {
+  .filterPopupTitle::after {
+    display: none;
+  }
+}

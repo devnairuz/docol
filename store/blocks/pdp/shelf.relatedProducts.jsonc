@@ -1,0 +1,34 @@
+{
+    "list-context.product-list#list-pdp-related": {
+        "props": {
+            "blockClass": "container-related"
+        },
+        "blocks": ["product-summary.shelf"],
+        "children": ["rich-text#related-title", "slider-layout#related-products"]
+    },
+
+    "rich-text#related-title": {
+        "props": {
+            "display": "block",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Veja também",
+            "font": "t-heading-5",
+            "blockClass": "related-title"
+        }
+    },
+
+    "slider-layout#related-products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": ["shelf", "slider-related"],
+            "arrowSize": 12
+        }
+    }
+}

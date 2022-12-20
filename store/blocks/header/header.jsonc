@@ -1,0 +1,198 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop"
+    ]
+  },
+
+  // MOBILE
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+
+
+  "flex-layout.row#1-mobile":{
+    "props": {
+      "blockClass": "logo__mobile",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": ["logo#mobile"]
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "category-menu#mob",
+      "search-bar",
+      "login#login-mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+
+  "category-menu#mob":{
+    "props":{
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "mobileMode": true
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/logo-krauer.jpg",
+      "width": "130"
+    }
+  },
+  "login#login-mobile":{
+    "props": {
+      "showIconProfile": true,
+      "viewBox": "0, 0, 38.713, 32.978"
+    }
+  },
+  "login#login-mobile_menu":{
+    "props": {
+      "showIconProfile": false,
+      "iconLabel": "Entrar/Cadastrar"
+    }
+  },
+
+  // FIM MOBILE
+  "flex-layout.row#1-desktop":{
+    "props": {
+      "blockClass": ["wrapper","infos__topo"],
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    },
+    "children": [
+      "logo",
+      "search-bar",
+      "flex-layout.col#icons_store-info",
+      "flex-layout.col#icons_store-login",
+      "flex-layout.col#icons_store-cart"
+    ]
+  },
+  "search-bar":{
+    "props": {
+      "placeholder": "O que você procura?",
+      "hasIconLeft": false
+    }
+  },
+
+  "logo":{
+    "props": {
+      "blockClass": "logo-header",
+      "href": "/",
+      "url": "assets/header/logo-krauer.jpg",
+      "width": 129,
+      "height": 57,
+      "mobileWidth": 90,
+      "mobileHeight": 32
+    }
+  },
+
+  // ATENDIMENTO
+  "flex-layout.col#icons_store-info":{
+    "props": {"blockClass":["wrapper__icons", "wrapper__icon-info"]},
+    "children": ["image#img-atendimento", "overlay-trigger"]
+  },
+  "overlay-trigger": {
+    "children": [
+      "rich-text#atendimento",
+      "overlay-layout"
+    ]
+  },
+  "image#img-atendimento":{
+    "props": {
+      "src": "assets/header/atendimento.svg",
+      "maxHeight": 28
+    }
+  },
+  "rich-text#atendimento": {
+    "props": {
+      "blockClass": "text__atendimento",
+      "text": "Central de \n**Atendimento**"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "left"
+    },
+    "children": [
+      "rich-text#boxatendimento"
+    ]
+  },
+  "rich-text#boxatendimento": {
+    "props": {
+      "blockClass": "box-atendimento",
+      "text": "Telefone: [(27) 3298.8730](/tel:2732988730)\n WhatsApp: [(27) 99869.0685](https://api.whatsapp.com/send?phone=5527998690685)\n E-mail:[contato@krauer.com.br](mailto:contato@krauer.com.br)\nHorário de Atendimento:\n De Segunda à Sexta-feira:\n das 7h às 17h."
+    }
+  },
+
+  // LOGIN
+  "flex-layout.col#icons_store-login":{
+    "props": {"blockClass":["wrapper__icons", "wrapper__login"]},
+    "children": ["image#login", "login"]
+  },
+  "login":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Código Rápido",
+      "emailPlaceholder": "Digite aqui seu e-mail",
+      "passwordPlaceholder": "Disite aqui sua senha",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": "Entrar ou Cadastrar"
+    }
+  },
+  "image#login":{
+    "props": {
+      "src": "assets/header/user.svg",
+      "maxHeight": 28
+    }
+  },
+
+  // CARRINHO
+  "flex-layout.col#icons_store-cart":{
+    "props": {"blockClass":["wrapper__icons", "wrapper__cart"]},
+    "children": ["minicart.v2"]
+  },
+
+
+
+  // MENU
+  "flex-layout.row#2-desktop":{
+    "props": {"blockClass": ["wrapper", "wrapper__categories"]},
+    "children": ["category-menu"]
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#mosaicos_topo": {
+        "props": {"blockClass": "wrapper__mosaicos"},
+        "children": [
+            "flex-layout.col#mosaico_one",
+            "flex-layout.col#mosaico_two",
+            "flex-layout.col#mosaico_three"
+        ]
+    },
+    // IMAGEM 1
+    "flex-layout.col#mosaico_one":{
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass":["wrapper__mosaico"]
+        },
+        "children": ["image#one"]
+    },
+    "image#one":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-topo/parcelamento-disco.png",
+            "link": {
+              "url": "/disco-corte-inox-4-�-x-10-c-10-prix-lotus-lt4007/p"
+            }
+        }
+    },
+
+    // IMAGEM 2
+    "flex-layout.col#mosaico_two":{
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass":["wrapper__mosaico"]
+        },
+        "children": ["image#two"]
+    },
+    "image#two":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-topo/parcelamento-mosaico.png",
+            "link": {
+              "url": "/pneu-completo-3-25x8-cap-100kg-flex-lotus-lt3964/p"
+            }
+        }
+    },
+
+    // IMAGEM 3
+    "flex-layout.col#mosaico_three":{
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass":["wrapper__mosaico"]
+        },
+        "children": ["image#three"]
+    },
+    "image#three":{
+        "props": {
+            "blockClass":"image__mosaico",
+            "src": "assets/mosaico-topo/parcelamento-alicate-mosaico.png",
+            "link": {
+              "url": "/alicate-crimpador-lotus-skg0035/p"
+            }
+        }
+    }
+}

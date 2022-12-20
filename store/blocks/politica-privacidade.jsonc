@@ -1,0 +1,28 @@
+{
+  "store.custom#politicaprivacidade": {
+    "children": [
+      "flex-layout.row#politicaprivacidade"
+    ]
+  },
+  "flex-layout.row#politicaprivacidade": {
+    "children": ["flex-layout.col#conteudoprivacidade"]
+  },
+  "flex-layout.col#conteudoprivacidade": {
+    "children": ["rich-text#privacidade-title","rich-text#sobrepolitica"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#privacidade-title": {
+    "props": {
+      "text": "# Políticas de Privacidade"
+    }
+  },
+  "rich-text#sobrepolitica": {
+    "props": {
+      "text": "A Krauer compromete-se em manter a privacidade e o sigilo absoluto em todos os processos de navegação e compras em nosso site. Qualquer alteração em nossa política de privacidade será, previamente, divulgada neste ambiente. \n\n ### Segurança e Privacidade\n\n Em relação aos dados pessoais, a Krauer garante que os mesmos, em nenhuma hipótese, serão divulgados, trocados ou vendidos para terceiros, exceto quando essas informações são necessárias para os processos de entregas, cobranças ou promoções, desde que estas seja solicitadas pelos clientes. Para a manutenção do sigilo dos dados, aconselha-se que as senhas não sejam divulgadas a ninguém. \n\n ### Onde coletamos e o que fazemos com seus dados?\n\n A coleta de informações é realizada no cadastro de informações para uma compra, no cadastro em promoções oferecidas, ao responder um questionário, no cadastro para receber novidades e promoções da Krauer via e-mail ou SMS. A Krauer garante a segurança das suas informações e as utiliza única e exclusivamente com o objetivo de aperfeiçoar nossos serviços, traçando o perfil de compra dos nossos clientes através de cookies (sessão do browser).",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.searchBarContainer{
+    width: 525px!important;
+    padding: 0;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.diagonalCross {
+  background-image: none;
+}
+@media (max-width: 991px) {
+  .logoLink {
+    text-align: center;
+  }
+}

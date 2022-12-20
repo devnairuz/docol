@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#controleinsta": {
+    "children": [
+      "flex-layout.row#instagram"
+    ],
+    "props": {
+      "blockClass": "controleinstagram",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#instagram": {
+    "children": ["flex-layout.col#textoinsta", "flex-layout.col#contentinstagram"],
+    "props": {
+      "blockClass": "instagram",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#textoinsta": {
+    "children": ["image#logoinsta", "rich-text#follow"],
+    "props": {
+      "blockClass": "texto-insta",
+      "width": "20%"
+    }
+  },
+  "image#logoinsta": {
+    "props": {
+      "src": "assets/footer/footer-instagram.png"
+    }
+  },
+  "rich-text#follow": {
+    "props": {
+      "text": "@krauerstore",
+      "blockClass": "follow__texto"
+    }
+  },
+
+  "flex-layout.col#contentinstagram": {
+    "children": ["flex-layout.row#fotos"],
+    "props": {
+      "width": "80%",
+      "blockClass": "instagram"
+    }
+  },
+  "flex-layout.row#fotos": {
+    "children": ["image#foto1", "image#foto2", "image#foto3", "image#foto4", "image#foto5"]
+  },
+  "image#foto1": {
+    "props": {
+      "src": "assets/instagram/fotoinsta1.png"
+    }
+  },
+  "image#foto2": {
+    "props": {
+      "src": "assets/instagram/fotoinsta2.png"
+    }
+  },
+  "image#foto3": {
+    "props": {
+      "src": "assets/instagram/fotoinsta3.png"
+    }
+  },
+  "image#foto4": {
+    "props": {
+      "src": "assets/instagram/fotoinsta4.png"
+    }
+  },
+  "image#foto5": {
+    "props": {
+      "src": "assets/instagram/fotoinsta5.png"
+    }
+  }
+
+}

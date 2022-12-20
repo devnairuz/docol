@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+  .profileIcon, .label {
+    color: #fff;
+  }
+  .label::after {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .profileIcon {
+    color: #fff;
+  }
+}

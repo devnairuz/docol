@@ -1,0 +1,35 @@
+.flexRow--wrapper{
+    width: 945pt;
+    margin: 0 auto;
+}
+
+.flexRowContent--wrapper .stretchChildrenWidth{
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--infos__topo {
+  justify-content: space-around;
+}
+.flexCol--wrapper__icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.flexColChild--wrapper__icons{
+    height: auto!important;
+}
+
+.flexRow--wrapper__categories{
+    background: #002D71;
+    width: 100%!important;
+}
+
+.flexRow--infos__topo {
+  padding: 5px 0;
+}
+
+

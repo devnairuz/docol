@@ -1,0 +1,31 @@
+{
+  "name": "dcorp-apps",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "graphql": "^14.0.2",
+    "ramda": "^0.26.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.12.0",
+    "react-intl": "^3.12.0",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.3",
+    "@types/ramda": "^0.26.5",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.5.1",
+    "graphql": "^14.6.0",
+    "vtex.apps-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.apps-graphql@2.9.0/public/@types/vtex.apps-graphql",
+    "vtex.format-currency": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.format-currency@0.4.1/public/@types/vtex.format-currency",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide",
+    "vtex.session-client": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client",
+    "vtexeurope.minicart-freeshipping-bar": "http://vtexeurope.vtexassets.com/_v/public/typings/v1/vtexeurope.minicart-freeshipping-bar@2.0.2/public/@types/vtexeurope.minicart-freeshipping-bar"
+  }
+}
