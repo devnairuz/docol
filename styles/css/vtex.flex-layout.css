@@ -129,6 +129,7 @@
   background: url('assets/footer/fundo-insta.svg');
   margin-top: 4rem;
   padding: 1rem;
+  display: none;
 }
 .flexRow--instagram, .flexCol--container{
   max-width: 1200px;

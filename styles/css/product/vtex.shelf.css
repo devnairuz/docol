@@ -3,4 +3,7 @@
     max-width: 1214px;
     margin: auto;
   }
+  :global(.vtex-shelf-1-x-relatedProducts) .dot {
+    display: none;
+  }
 }

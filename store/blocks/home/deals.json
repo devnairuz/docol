@@ -45,7 +45,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "Parcelamento em \n **até 6x sem juros**",
+      "text": "Parcelamento em \n **até 8x sem juros**",
       "blockClass": "deals"
     }
   },
@@ -64,7 +64,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**Desconto de 6%** \n à vista(Boleto/Pix)",
+      "text": "**Desconto de 10%** \n (Boleto/Pix/Crédito à vista)",
       "blockClass": "deals"
     }
   },

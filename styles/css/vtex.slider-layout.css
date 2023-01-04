@@ -57,7 +57,7 @@
 }
 
 @media (max-width: 991px) {
-  .paginationDotsContainer--sliderbene, .sliderArrows--sliderbene {
+  .paginationDotsContainer--sliderbene, .sliderArrows--sliderbene, :global(.vtex-shelf-1-x-relatedProducts) .dotsContainer {
     display: none;
   }
   .sliderLayoutContainer--sliderbene, .slide--sliderbene {
