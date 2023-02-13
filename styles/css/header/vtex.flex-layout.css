@@ -9,7 +9,7 @@
 }
 
 .flexRowContent--infos__topo {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .flexCol--wrapper__icons{
     display: flex;
@@ -24,8 +24,9 @@
 }
 
 .flexRow--wrapper__categories{
-    background: #002D71;
+    background: #E3E3E2;
     width: 100%!important;
+    box-shadow: 3px 3px 6px #00000014;
 }
 
 .flexRow--infos__topo {

@@ -40,12 +40,12 @@
 
   box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 60%);
 }
-.paginationDot--carousel--isActive {
-  border: 1px solid #F48120;
-}
 .paginationDot--carousel {
   background: #FFF5F5 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000061;
+}
+.paginationDot--carousel--isActive {
+  background: #00A9E0;
 }
 .sliderRightArrow, .sliderLeftArrow {
   height: 50px;

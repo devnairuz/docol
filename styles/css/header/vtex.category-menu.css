@@ -1,30 +1,42 @@
 .container{
-    background: #002D71;
-
-    height: 80px;
-    display: flex;
-    align-items: center;
+  background: #E3E3E2;
 }
 
- .departmentLink{
-  padding: 0;
+.departmentList {
+  height: initial;
+  margin: 0 -15px;
+  padding: 16px 0;
+}
+.departmentLink {
   border: none!important;
-  font: normal normal 600 14px/21px Poppins Regular;
-  color: #FFFFFF;
+  color: #343434;
+  margin: 0;
+  font-weight: 600;
+  padding: 0;
+}
+.itemContainer:last-child .departmentLink {
+  padding: 7px 23px;
+  background: #FFFFFF;
+  border-radius: 7px;
 }
 
 .itemContainer--category{
     z-index: 9 !important;
-    background: #002D71;
+    background: #E3E3E2;
     width: auto;
     left: auto;
     transition: all .4s linear;
 }
 
+.itemContainer {
+  max-height: initial;
+  line-height: initial;
+}
+.itemContainer:not(:first-child) {
+  margin-left: 62px;
+}
+
 @media (min-width: 1100px) {
-  .departmentLink {
-    padding: 0 2rem;
-  }
   .submenuList {
     display: block;
     column-count: 3;
@@ -40,9 +52,6 @@
   }
   .submenuItem {
     width: 100%;
-  }
-  .itemContainer {
-    max-height: 52.875rem;
   }
 }
 

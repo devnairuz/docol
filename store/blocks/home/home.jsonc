@@ -23,11 +23,11 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "image": "assets/banners/home/main-carousel/banner-desk-01.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "image": "assets/banners/home/main-carousel/banner-desk-01.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
         }
       ]
@@ -40,7 +40,6 @@
         "tablet": 1,
         "phone": 1
       },
-      "autoplay": false,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel",

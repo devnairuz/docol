@@ -19,9 +19,9 @@
     "image#one":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-topo/parcelamento-disco.png",
+            "src": "assets/mosaico-topo/cozinhas-e-areas-gourmet.png",
             "link": {
-              "url": "/disco-corte-inox-4-�-x-10-c-10-prix-lotus-lt4007/p"
+              "url": "/cozinha"
             }
         }
     },
@@ -38,9 +38,9 @@
     "image#two":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-topo/parcelamento-mosaico.png",
+            "src": "assets/mosaico-topo/lavanderias-e-areas-externas.png",
             "link": {
-              "url": "/pneu-completo-3-25x8-cap-100kg-flex-lotus-lt3964/p"
+              "url": "/lavanderia-e-area-externa"
             }
         }
     },
@@ -57,9 +57,9 @@
     "image#three":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-topo/parcelamento-alicate-mosaico.png",
+            "src": "assets/mosaico-topo/banehiros-e-lavabos.png",
             "link": {
-              "url": "/alicate-crimpador-lotus-skg0035/p"
+              "url": "/banheiro-e-lavabo"
             }
         }
     }

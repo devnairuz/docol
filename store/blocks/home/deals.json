@@ -4,7 +4,8 @@
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
       "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals5"
     ],
     "props": {
       "blockClass": "deals"
@@ -20,16 +21,17 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/beneficios/thumbs-up.svg",
-      "maxHeight": "24px"
+      "src": "assets/beneficios/parcel.svg",
+      "maxHeight": "32px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "**Exclusivo: Garantia** \n Krauer de 12 meses*",
+      "text": "Retirada direto \n **na fábrica**",
       "blockClass": "deals"
     }
   },
+
   "flex-layout.col#deals2": {
     "props": {"blockClass":"wrapper__deals"},
     "children": [
@@ -40,15 +42,16 @@
   "image#deal2": {
     "props": {
       "src": "assets/beneficios/credit-card.svg",
-      "maxHeight": "24px"
+      "maxHeight": "28px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "Parcelamento em \n **até 8x sem juros**",
+      "text": "Parcelamento em \n **até 6x sem juros**",
       "blockClass": "deals"
     }
   },
+
   "flex-layout.col#deals3": {
     "props": {"blockClass":"wrapper__deals"},
     "children": [
@@ -58,13 +61,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "assets/beneficios/barcode.svg",
-      "maxHeight": "24px"
+      "src": "assets/beneficios/discount.svg",
+      "maxHeight": "32px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**Desconto de 10%** \n (Boleto/Pix/Crédito à vista)",
+      "text": "Preços \n **exclusivos**",
       "blockClass": "deals"
     }
   },
@@ -76,18 +79,36 @@
       "rich-text#deal4"
     ]
   },
-
   "image#deal4": {
     "props": {
       "src": "assets/beneficios/security.svg",
-      "maxHeight": "24px"
+      "maxHeight": "32px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Compra garantida \n**loja 100% segura**",
+      "text": "Compra garantida \n**Loja 100% segura**",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals5":{
+    "props": {"blockClass":"wrapper__deals"},
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "image#deal5": {
+    "props": {
+      "src": "assets/beneficios/security.svg",
+      "maxHeight": "32px"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "Acesso exclusivo \n**para colaboradores**",
       "blockClass": "deals"
     }
   }
-
 }

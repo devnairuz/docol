@@ -23,6 +23,14 @@
 :global(.vtex-store-components-3-x-inputGroup) :global(.vtex-input-prefix__group)   {
   border: 0;
 }
+:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+  flex-direction: row-reverse;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  padding: 0;
+}
+
 :global(.vtex-address-form__postalCode) {
   padding-bottom: 0;
 }

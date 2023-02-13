@@ -62,7 +62,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/header/logo-krauer.jpg",
+      "url": "assets/header/logo-docol.svg",
       "width": "130"
     }
   },
@@ -105,7 +105,7 @@
     "props": {
       "blockClass": "logo-header",
       "href": "/",
-      "url": "assets/header/logo-krauer.jpg",
+      "url": "assets/header/logo-docol.svg",
       "width": 129,
       "height": 57,
       "mobileWidth": 90,

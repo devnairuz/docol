@@ -1,4 +1,4 @@
-{
+  {
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
@@ -15,8 +15,8 @@
   },
   "icon-cart#minicart-icon": {
     "props": {
-      "size": "38",
-      "viewBox": "0, 0, 38.713, 32.978"
+      "size": "28",
+      "viewBox": "0 0 29 28"
     }
   },
   "minicart-base-content": {
