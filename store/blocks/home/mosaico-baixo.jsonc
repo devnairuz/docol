@@ -13,17 +13,15 @@
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center",
-            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo"]
+            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo"],
+            "width": "57%"
         },
         "children": ["image#baixo-one"]
     },
     "image#baixo-one":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-baixo/inferior_01.png",
-            "link": {
-              "url": "/ferramentas"
-            }
+            "src": "assets/mosaico-baixo/garantia-toda-vida.png"
         }
     },
 
@@ -39,19 +37,13 @@
     "image#baixo-two":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-baixo/inferior_02.png",
-            "link": {
-              "url": "/ferramentas"
-            }
+            "src": "assets/mosaico-baixo/precos-exclusivos.png"
         }
     },
     "image#baixo-three":{
         "props": {
             "blockClass":"image__mosaico",
-            "src": "assets/mosaico-baixo/inferior_03.png",
-            "link": {
-              "url": "/ferramentas"
-            }
+            "src": "assets/mosaico-baixo/retire-facil.png"
         }
     }
 }

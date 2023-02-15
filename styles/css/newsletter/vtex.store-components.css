@@ -1,5 +1,5 @@
 .newsletter--newsletter__block{
-    background-color: #002D71;
+    background-color: #616366;
 }
 .container--newsletter__block{
     padding: 0!important;
@@ -12,8 +12,12 @@
     justify-content: space-between;
 }
 .label--newsletter__block{
-  font: normal normal 400 17px/26px Poppins Regular;
+  font-size: 16px;
   color: #FFFFFF;
+  max-width: 190px;
+  font-weight: 400;
+  margin-left: 15px;
+  text-align: left;
 }
 .inputGroup--newsletter__block{
     padding: 0!important;
@@ -31,10 +35,6 @@
     font: normal normal 600 15px/23px Poppins Regular;
     text-transform: capitalize;
     color: #FFFFFF;
-}
-.imageElement--newsimg {
-  position: relative;
-    top: 8px;
 }
 .confirmationTitle--newsletter__block, .confirmationText--newsletter__block {
   color: #fff;

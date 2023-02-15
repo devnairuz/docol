@@ -1,6 +1,15 @@
+/* MENU HEADER */
+.flexRowContent--header__menu :global(.vtex-category-menu-2-x-itemContainer):not(:first-child) {
+  margin-left: 62px;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+}
+
+.flexColChild--formas__wrapper:not(:first-child) {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 40em) {
@@ -114,9 +123,9 @@
 }
 
 /* MOSAICO */
-.flexRow--wrapper__mosaicos{
-  max-width: 1200px;
-  margin: 0px auto;
+.flexRowContent--wrapper__mosaicos,
+.flexCol--wrapper__mosaico {
+  justify-content: space-between;
 }
 
 /* CARROSSEL DE PRODUTOS */

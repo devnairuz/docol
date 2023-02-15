@@ -12,6 +12,10 @@
       "flex-layout.row#shelf",
       "rich-text#shelf-title-lancamentos",
       "flex-layout.row#shelf",
+      "rich-text#shelf-title-mais-vendidos",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-destaques",
+      "flex-layout.row#shelf",
       "flex-layout.row#mosaico_baixo"
     ]
   },
@@ -55,16 +59,29 @@
   // LISTAGEM TÍTULO
   "rich-text#shelf-title": {
     "props": {
-      "text": "**Mais Vendidos**",
+      "text": "**Outlet**",
       "blockClass": "shelfTitle"
     }
   },
   "rich-text#shelf-title-lancamentos":{
     "props": {
-      "text": "**Destaques**",
+      "text": "**Lançamentos**",
       "blockClass": ["shelfTitle", "text_halfbar"]
     }
   },
+  "rich-text#shelf-title-mais-vendidos":{
+    "props": {
+      "text": "**Mais vendidos**",
+      "blockClass": ["shelfTitle", "text_mais"]
+    }
+  },
+  "rich-text#shelf-title-destaques":{
+    "props": {
+      "text": "**Destaques**",
+      "blockClass": ["shelfTitle", "text_dest"]
+    }
+  },
+
   // LISTAGEM - PRODUTO
   "flex-layout.row#shelf": {
     "children": ["flex-layout.col#grid1"]
@@ -96,7 +113,7 @@
     }
   },
 
-  "info-card#home": {
+  "info-card#home": { 
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,

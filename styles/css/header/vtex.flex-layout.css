@@ -1,8 +1,3 @@
-.flexRow--wrapper{
-    width: 945pt;
-    margin: 0 auto;
-}
-
 .flexRowContent--wrapper .stretchChildrenWidth{
     display: flex;
     align-items: center;

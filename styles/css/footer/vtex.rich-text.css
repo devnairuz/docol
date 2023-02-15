@@ -1,8 +1,8 @@
 .heading--footer__title{
-    margin: 0 0 20px;
-
-    font: normal normal 400 19px/25px Poppins SemiBold;
-  color: #272D60;
+  margin: 0 0 20px;
+  color: #616366;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--wrapper__assinatura) .container--text__copyright{
@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     gap: 9px;
+    font-size: 12px;
 }
 .wrapper--textoloja {
   font: normal normal 300 14px/18px Poppins Regular;
@@ -28,28 +29,29 @@
   text-align: center;
 }
 .strong--rodapelinks {
-  font: normal normal 14px/28px Poppins Bold;
-  color: #272D60;
+  color: #616366;
+  font-size: 14px;
 }
 .link--rodapelinks, .paragraph--rodapelinks {
-  font: normal normal normal 14px/20px Poppins Regular;
-  color: #979797;
+  color: #A2A2A2;
   text-decoration: inherit;
+  font-size: 14px;
 }
 .link--rodapelinks:hover, .paragraph--rodapelinks:hover {
   color: #272D60;
 }
 
-.paragraph--rodapelinks {
-  margin-bottom: 1rem;
-  margin-top: 0;
-  text-align: initial;
+.container--rodapelinks.container--not-first {
+  margin-top: 20px;
 }
 
-.container--footer__cat {
-  justify-content: center;
-  width: 90%;
+.paragraph--rodapelinks {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: initial;
+  line-height: 28px;
 }
+
 @media (max-width: 991px) {
   .container--text__copyright {
     justify-content: center;

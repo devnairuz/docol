@@ -4,21 +4,16 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#controleinsta",
       "flex-layout.row#newslettermobile",
       "flex-layout.row#footer",
-      "flex-layout.row#footer_pagamento",
-      "flex-layout.row#footer_copyright",
-      "flex-layout.row#footer-whats"]
+      "flex-layout.row#footer_copyright"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#controleinsta",
       "flex-layout.row#newsletter",
       "flex-layout.row#footer",
-      "flex-layout.row#footer_pagamento",
-      "flex-layout.row#footer_copyright",
-      "flex-layout.row#footer-whats"
+      "flex-layout.row#footer_copyright"
     ]
   },
   "flex-layout.row#newslettermobile":{
@@ -31,7 +26,7 @@
   "image#image_newslettermobile":{
     "props": {
       "alt": "paper and plane",
-      "src": "assets/footer/paper-plane-krauer.svg",
+      "src": "assets/footer/envelope.svg",
       "blockClass": "paperplane"
     }
   },
@@ -61,25 +56,48 @@
       }
     }
   },
-  "flex-layout.row#newsletter":{
+  "flex-layout.row#newsletter": {
     "props": {"blockClass": "wrapper__newsletter"},
-    "children": ["image#image_newsletter", "newsletter"]
+    "children": ["image#image_newsletter", "rich-text#label-news", "newsletter-form"]
   },
-  "image#image_newsletter":{
+  "image#image_newsletter": {
     "props": {
       "alt": "paper and plane",
-      "src": "assets/footer/paper-plane-krauer.svg",
+      "src": "assets/footer/envelope.svg",
       "horizontalAlign": "center",
       "blockClass": "newsimg"
     }
   },
 
-  "newsletter":{
+  "rich-text#label-news": {
     "props": {
-      "label": "Assine nossa newsletter e fique por dentro de tudo!",
-      "placeholder": "Digite aqui seu e-mail",
-      "submit": "Cadastrar",
-      "blockClass": "newsletter__block"
+      "text": "Assine nossa newsletter e fique por dentro de tudo!",
+      "width": "18%",
+      "blockClass": "label-news"
+    }
+  },
+
+  "newsletter-form":{
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass": "newsletter__block",
+      "width": "77%"
+    }
+  },
+
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "E-mail"
+    }
+  },
+
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "CADASTRE-SE"
     }
   },
 
@@ -89,42 +107,66 @@
       "horizontalAlign": "center"
     },
     "children": [
-      "flex-layout.col#footer__description-col",
       "flex-layout.col#footer__category",
       "flex-layout.col#footer__institucional",
-      "flex-layout.col#footer__atendimento"
+      "flex-layout.col#footer__atendimento",
+      "flex-layout.col#footer__formas",
+      "flex-layout.col#footer__selos"
     ]
   },
 
-  "flex-layout.col#footer__description-col":{
+  "flex-layout.col#footer__formas": {
     "props": {
-      "blockClass": ["column__descriptions"],
-      "horizontalAlign": "center"
+      "blockClass": "formas__wrapper"
     },
-    "children": ["image#footer-logo", "rich-text#text-description", "flex-layout.row#redessociais"]
+    "children": [
+      "flex-layout.row#formas-pagamento",
+      "flex-layout.row#redes-sociais",
+      "flex-layout.row#formas-entrega"
+    ]
   },
-  "image#footer-logo":{
-    "props": {
-      "src": "assets/header/logo.png",
-      "alt": "Logo",
-      "link": "/",
-      "width": 200,
-      "height": 100
-    }
+  "flex-layout.row#formas-entrega": {
+    "children": ["flex-layout.col#envio"]
   },
-  "rich-text#text-description":{
-    "props": {
-      "text": "Graças à grande experiencia do Grupo Lotus, a Krauer oferece extensa variedade de ferramentas e utilidades, fabricadas de acordo com rigorosos padrões de qualidade, com design, desempenho e acabamento equivalentes às melhores marcas internacionais.",
-      "textAlignment": "center",
-      "blockClass": "textoloja"
-    }
+
+  "flex-layout.col#footer__selos": {
+    "children": ["flex-layout.col#seguranca"]
   },
-  "flex-layout.row#redessociais": {
-    "children": ["image#insta", "image#face", "image#linkedin", "image#youtube"],
+
+  "flex-layout.row#redes-sociais": {
+    "children": ["flex-layout.col#social-wrapper"],
     "props": {
       "blockClass": "redesocial"
     }
   },
+
+  "flex-layout.col#social-wrapper": {
+    "props": {
+      "width": "80%"
+    },
+    "children": [
+      "rich-text#social-title",
+      "flex-layout.row#social-icons"
+    ]
+  },
+
+  "rich-text#social-title": {
+    "props": {
+      "text": "### **Nossas redes sociais**",
+      "blockClass": "footer__title"
+    }
+  },
+
+  "flex-layout.row#social-icons": {
+    "children": [
+      "image#linkedin",
+      "image#face",
+      "image#insta",
+      "image#youtube",
+      "image#pinterest"
+    ]
+  },
+
   "image#insta": {
     "props": {
       "src": "assets/redes-sociais/icon-instagram.svg",
@@ -132,7 +174,7 @@
         "url": "https://www.instagram.com/krauerstore/",
         "newTab": true
      },
-      "blockClass": "iconrede"
+     "blockClass": ["image__icons", "social__icons"]
     }
   },
   "image#face": {
@@ -142,7 +184,7 @@
         "url": "https://www.facebook.com/krauerstore",
         "newTab": true
      },
-     "blockClass": "iconrede"
+     "blockClass": ["image__icons", "social__icons"]
     }
   },
   "image#linkedin": {
@@ -152,7 +194,7 @@
         "url": "https://www.linkedin.com/company/krauer-com%C3%A9rcio-eletr%C3%B4nico-ltda/",
         "newTab": true
      },
-     "blockClass": "iconrede"
+     "blockClass": ["image__icons", "social__icons"]
     }
   },
   "image#youtube": {
@@ -162,9 +204,20 @@
         "url": "https://www.youtube.com/channel/UCbMaLVj9D56ijx5uWf_cyCA",
         "newTab": true
      },
-     "blockClass": "iconrede"
+     "blockClass": ["image__icons", "social__icons"]
     }
   },
+  "image#pinterest": {
+    "props": {
+      "src": "assets/redes-sociais/icon-pinterest.svg",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCbMaLVj9D56ijx5uWf_cyCA",
+        "newTab": true
+     },
+     "blockClass": ["image__icons", "social__icons"]
+    }
+  },
+
   "flex-layout.col#footer__category":{
     "props": {
       "blockClass": ["wrapper__column"],
@@ -195,7 +248,7 @@
       "horizontalAlign": "center"
     },
     "children": ["rich-text#title-institucional", "rich-text#text__faleconosco", "rich-text#quemsomos", "rich-text#garantia",
-  "rich-text#devolucao", "rich-text#privacidade"]
+  "rich-text#devolucao", "rich-text#privacidade", "rich-text#cancelamento"]
   },
   "rich-text#title-institucional":{
     "props": {
@@ -217,19 +270,25 @@
   },
   "rich-text#garantia": {
     "props": {
-      "text": "[Garantia](/garantia)",
+      "text": "[Frete Grátis](/frete-gratis)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#devolucao": {
     "props": {
-      "text": "[Devoluções e Trocas](/devolucoes-e-trocas)",
+      "text": "[Políticas de Vendas](/politicas-de-vendas)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#privacidade": {
     "props": {
-      "text": "[Políticas de privacidade](/politicas-de-privacidade)",
+      "text": "[Políticas de Trocas](/politicas-de-trocas)",
+      "blockClass": "rodapelinks"
+    }
+  },
+  "rich-text#cancelamento": {
+    "props": {
+      "text": "[Cancelamentos](/cancelamentos)",
       "blockClass": "rodapelinks"
     }
   },
@@ -239,7 +298,7 @@
       "blockClass": ["wrapper__column"],
       "horizontalAlign": "center"
     },
-    "children": ["rich-text#title-atendimento", "rich-text#telefone","rich-text#whats", "rich-text#email","rich-text#cnpj", "rich-text#hatendimento"]
+    "children": ["rich-text#title-atendimento", "rich-text#telefone","rich-text#whats", "rich-text#email"]
   },
   "rich-text#title-atendimento":{
     "props": {
@@ -249,55 +308,42 @@
   },
   "rich-text#telefone": {
     "props": {
-      "text": "**Telefone:**\n [(27) 3298.8730](/tel:2732988730)",
+      "text": "**DocolResponde:**\n [0800 474 3333](/tel:08004743333)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#whats":{
     "props": {
-      "text": "**WhatsApp:**\n [(27) 99869.0685](https://api.whatsapp.com/send?phone=5527998690685)",
+      "text": "**DocolTelevendas:**\n [0800 474 9000](/tel:08004749000)",
       "link": {
         "newTab": true
       },
-      "blockClass": "rodapelinks"
+      "blockClass": ["rodapelinks", "not-first"]
     }
   },
   "rich-text#email":{
     "props": {
-      "text": "**E-mail:**\n [sac@krauer.com.br](mailto:sac@krauer.com.br)",
-      "blockClass": "rodapelinks"
-    }
-  },
-  "rich-text#cnpj": {
-    "props": {
-      "text": "**CNPJ:**\n 45.841.248/0001-13",
-      "blockClass": "rodapelinks"
-    }
-  },
-  "rich-text#hatendimento":{
-    "props": {
-      "text": "**Horário de Atendimento:**\n De Segunda à Sexta-feira:\n das 7h às 17h.",
-      "blockClass": "rodapelinks"
+      "text": "**E-mail:**\n [dresponde@docol.com.br](mailto:dresponde@docol.com.br)",
+      "blockClass": ["rodapelinks", "not-first"]
     }
   },
 
-  "flex-layout.row#footer_pagamento":{
+  "flex-layout.row#formas-pagamento":{
     "props": {
       "blockClass": ["wrapper", "wrapper__icons"]
     },
     "children": [
-      "flex-layout.col#pagamento",
-      "flex-layout.col#seguranca",
-      "flex-layout.col#envio"
+      "flex-layout.col#pagamento"
     ]
   },
   "flex-layout.col#pagamento":{
     "props": {
-      "blockClass": ["wrapper__icon"]
+      "blockClass": ["wrapper__icon"],
+      "width": "75%"
     },
     "children": [
       "rich-text#pagamento",
-      "image#pagamento"
+      "flex-layout.row#bandeiras-pagamento"
     ]
   },
   "rich-text#pagamento":{
@@ -306,106 +352,150 @@
       "text": "### **Formas de pagamento**"
     }
   },
-  "image#pagamento": {
+  "flex-layout.row#bandeiras-pagamento": {
+    "children": [
+      "image#pag-visa",
+      "image#pag-master",
+      "image#pag-boleto"
+    ]
+  },
+  "image#pag-visa": {
     "props": {
       "blockClass": "image__icons",
-      "src": "assets/pagamento.png"
+      "src": "assets/pagamento/visa.png"
     }
   },
-
+  "image#pag-master": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/pagamento/master.png"
+    }
+  },
+  "image#pag-boleto": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/pagamento/boleto.png"
+    }
+  },
 
   "flex-layout.col#seguranca":{
     "props": {
-      "blockClass": ["wrapper__icon"]
+      "blockClass": ["wrapper__icon"],
+      "width": "100%"
     },
     "children": [
-      "rich-text#seguranca",
+      "flex-layout.row#text-seguranca",
       "flex-layout.row#selos",
-      "flex-layout.row#selos2"
-
+      "flex-layout.row#selos2",
+      "flex-layout.row#selos3"
     ]
   },
-  "flex-layout.row#selos2": {
-    "children": ["image#clearsale"],
+  "flex-layout.row#text-seguranca": {
+    "children": ["rich-text#seguranca"],
     "props": {
-      "blockClass": "seloscontrole"
+      "blockClass": "title__secure"
     }
   },
-  "image#clearsale": {
-    "props": {
-      "blockClass": "image__sale",
-      "src": "assets/footer/clearsale-selo.png"
-    }
-  },
-  "flex-layout.row#selos": {
-    "children": ["image#seguranca", "flex-layout.col#seloskrauer"],
-    "props": {
-      "blockClass": "seloscontrole"
-    }
-  },
-
   "rich-text#seguranca":{
     "props": {
       "blockClass":["footer__title"],
-      "text": "### **Selos de segurança**"
+      "text": "### **Selos e certificações**"
     }
   },
-  "image#seguranca": {
+  "flex-layout.row#selos2": {
+    "children": ["image#googlesf"],
+    "props": {
+      "blockClass": "seloscontrole"
+    }
+  },
+  "image#googlesf": {
+    "props": {
+      "blockClass": "image__sale",
+      "src": "assets/footer/googlesafe.png"
+    }
+  },
+  "flex-layout.row#selos": {
+    "children": ["flex-layout.col#selo-premiora", "flex-layout.col#selo-vidatoda", "flex-layout.col#selo-ebit"],
+    "props": {
+      "blockClass": "seloscontrole"
+    }
+  },
+
+  "flex-layout.col#selo-premiora": {
+    "children": ["image#selo-premiora"]
+  },
+  "flex-layout.col#selo-vidatoda": {
+    "children": ["image#selo-vidatoda"]
+  },
+  "flex-layout.col#selo-ebit": {
+    "children": ["image#selo-ebit"]
+  },
+  "image#selo-premiora": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/footer/premio-ra.png"
+    }
+  },
+  "image#selo-vidatoda": {
+    "props": {
+      "blockClass": "image__icons",
+      "src": "assets/footer/toda-vida.png"
+    }
+  },
+  "image#selo-ebit": {
     "props": {
       "blockClass": "image__icons",
       "src": "assets/footer/ebit.png"
     }
   },
-  "flex-layout.col#seloskrauer": {
-    "children": ["image#safe", "image#blindado"]
-  },
 
-  "image#safe": {
+  "flex-layout.row#selos3": {
+    "children": ["image#selo-siteblindado"],
     "props": {
-      "src": "assets/footer/googlesafe.png",
-      "blockClass": "safeimggoogle"
+      "blockClass": "seloscontrole"
     }
   },
-
-  "image#blindado": {
+  "image#selo-siteblindado": {
     "props": {
+      "blockClass": "image__icons",
       "src": "assets/footer/siteblindado.png"
     }
   },
 
   "flex-layout.col#envio":{
     "props": {
-      "blockClass": ["wrapper__icon"]
+      "blockClass": ["wrapper__icon"],
+      "width": "100%"
     },
     "children": [
       "rich-text#envio",
-      "image#envio"
+      "rich-text#envio-info"
     ]
   },
 
   "rich-text#envio":{
     "props": {
-      "blockClass":["footer__title"],
-      "text": "### **Formas de envio**"
+      "blockClass":["footer__title", "envio__title"],
+      "text": "### **Entrega**"
     }
   },
-  "image#envio": {
+  "rich-text#envio-info":{
     "props": {
-      "blockClass": "image__icons",
-      "src": "assets/footer/envio-novo.svg"
+      "blockClass":["footer__text"],
+      "text": "Retirada direto na fábrica"
     }
   },
 
   "flex-layout.row#footer_copyright": {
     "props": {"blockClass": ["wrapper", "wrapper__copy"]},
-    "children": ["flex-layout.col#copyright_first", "flex-layout.col#copyright_second"]
+    "children": ["flex-layout.col#copyright_first"]
   },
   "flex-layout.col#copyright_first":{
     "children": ["rich-text#copy__info"]
   },
   "rich-text#copy__info":{
     "props": {
-      "text": "Krauer® | Todos os direitos reservados.",
+      "text": "Docol® | Todos os direitos reservados. Razão Social: Docol Indústria e Comércio Ltda. CNPJ: 75.339.051/0001-41. Avenida Edmundo Doubrawa, 1001, Bairro: Zona Industrial Norte, CEP: 89219-502, Joinville-SC\n Atualizamos a Política de Privacidade do site e ao continuar navegando neste site, entendemos que você está ciente e de acordo com ela. Preços e condições de pagamento exclusivos para compras via internet. Caso os produtos apresentem divergência de valores, o preço válido é o do Carrinho de Compras. Vendas sujeitas a análise e confirmação de dados. Colocar produtos no Carrinho de Compras não garante a reserva dos mesmos.",
       "blockClass": "text__copyright",
       "textColor": "#b1b1b1"
     }

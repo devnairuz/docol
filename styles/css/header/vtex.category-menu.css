@@ -32,9 +32,6 @@
   max-height: initial;
   line-height: initial;
 }
-.itemContainer:not(:first-child) {
-  margin-left: 62px;
-}
 
 @media (min-width: 1100px) {
   .submenuList {

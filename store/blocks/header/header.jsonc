@@ -184,7 +184,7 @@
 
   // MENU
   "flex-layout.row#2-desktop":{
-    "props": {"blockClass": ["wrapper", "wrapper__categories"]},
+    "props": {"blockClass": ["wrapper", "wrapper__categories", "header__menu"]},
     "children": ["category-menu"]
   },
   "category-menu": {

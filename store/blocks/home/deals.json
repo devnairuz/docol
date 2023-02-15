@@ -101,7 +101,7 @@
   },
   "image#deal5": {
     "props": {
-      "src": "assets/beneficios/security.svg",
+      "src": "assets/beneficios/employee.svg",
       "maxHeight": "32px"
     }
   },

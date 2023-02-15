@@ -98,31 +98,39 @@
 }
 .container--shelfTitle{
   margin: 40px auto;
-  max-width: 1214px;
+  max-width: 1170px;
+  padding: 0 15px;
 }
 .wrapper--shelfTitle{
-  background-color: #F48120;
   text-align: left;
-  color: #fff;
-  font: normal normal 800 20px/30px Poppins Bold;
+  color: #343434;
   width: 100%;
-  padding: 0 5rem;
+  padding: 0 12px;
   position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  border-left: 4px solid #616366;
+}
+.paragraph--shelfTitle {
+  margin: 7.5px 0;
 }
 
-.wrapper--shelfTitle::after{
-  content: 'Corre, que é por tempo limitado';
-  font: italic normal 300 14px/21px Poppins Italic;
-    color: #FFFFFF;
-}
 .wrapper--shelfTitle.wrapper--text_halfbar::after {
   content: 'Confira nossas novidades!';
-  font: normal 14px/21px Poppins Regular;
-    color: #FFFFFF;
-    font-weight: 700;
+  color: #343434;
+  font-size: 14px;
+}
+.wrapper--shelfTitle.wrapper--text_mais::after {
+  content: 'Selecionamos produtos especiais para você!';
+  color: #343434;
+  font-size: 14px;
+}
+.wrapper--shelfTitle.wrapper--text_dest::after {
+  content: 'Todo mundo comprando!';
+  color: #343434;
+  font-size: 14px;
 }
 .paragraph--text__atendimento {
   font: normal normal 300 15px/13px Poppins Regular;
@@ -166,6 +174,23 @@
 .wrapper--404__page {
   font: normal normal normal 35px/20px Poppins Regular;
     color: #979797;
+}
+
+.wrapper--label-news .paragraph {
+  margin: 0;
+  color: #FFFFFF;
+  line-height: 20px;
+  margin-left: 15px;
+}
+
+.wrapper--envio__title .heading--footer__title {
+  margin: 0 0 10px;
+}
+
+.paragraph--footer__text {
+  margin: 0;
+  font-size: 14px;
+  color: #A2A2A2;
 }
 
 @media (min-width: 1200px) {
