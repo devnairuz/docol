@@ -1,12 +1,36 @@
-:global(.vtex-flex-layout-0-x-flexRow--wrapper__product-actions) .buttonText{
-  font: normal normal normal 14px/17px Poppins Regular !important;
+:global(.vtex-flex-layout-0-x-flexRow--wrapper__product-actions) .buttonText {
   color: #FFFFFF;
-    text-transform: none!important;
-  }
+  text-transform: none!important;
+  font-weight: 600;
+}
 
-:global(.vtex-flex-layout-0-x-flexRow--wrapper__product-actions) :global(.vtex-button){
-    background-color: #F48120!important;
-    box-shadow: 0px 3px 6px #00000029;
-    border: none!important;
-    border-radius: 0;
+:global(.vtex-flex-layout-0-x-flexRow--wrapper__product-actions) :global(.vtex-button) {
+  box-shadow: 0px 3px 6px #00000029;
+  border: none!important;
+  border-radius: 0;
+  min-height: initial;
+}
+
+.buttonDataContainer--add_to_cart_default {
+  background-color: #616366;
+}
+.buttonDataContainer--add_to_cart_default::before {
+  content: "";
+  background: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/icons/add-to-cart.svg);
+  width: 40px;
+  height: 30px;
+  padding: 10px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.buttonText--add_to_cart_default {
+  font-size: 0;
+}
+.buttonDataContainer--quick_buy {
+  background-color: #00A9E0;
+}
+.buttonText--quick_buy {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 7px 38px;
 }

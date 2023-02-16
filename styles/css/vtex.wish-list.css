@@ -1,7 +1,11 @@
 :global(.vtex-product-summary-2-x-container ) .wishlistIconContainer{
-    margin-right: 10px;
     visibility: hidden;
     transition: all .2s;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    z-index: 2;
+    margin: 0;
 }
 .wishlistIconContainer{
     transition: all .2s;
@@ -12,7 +16,6 @@
 }
 
 :global(.vtex-product-summary-2-x-container ) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label){
-    background: #E6E6E6;    
     padding: 7px!important;
     box-shadow: 0px 3px 6px #00000029;
 }

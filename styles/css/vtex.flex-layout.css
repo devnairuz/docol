@@ -12,6 +12,20 @@
   margin-top: 30px;
 }
 
+.flexRow--prices__wrapper {
+  padding: 0 20px;
+}
+.flexRowContent--price__savings {
+  align-items: center;
+}
+.flexRowContent--price__savings .stretchChildrenWidth,
+.flexRowContent--wrapper__product-actions .stretchChildrenWidth {
+  width: fit-content !important;
+}
+.flexRowContent--selling__savings {
+  margin: 0;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -52,9 +66,12 @@
 }
 
 
-
+.flexRowContent--deals {
+  justify-content: space-between;
+}
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
+  max-width: fit-content;
 }
 
 .flexRow--deals .flexCol {

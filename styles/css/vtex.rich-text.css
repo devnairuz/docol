@@ -97,7 +97,7 @@
   color: #202020;
 }
 .container--shelfTitle{
-  margin: 40px auto;
+  margin: 40px auto 15px;
   max-width: 1170px;
   padding: 0 15px;
 }

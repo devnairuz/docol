@@ -1,6 +1,11 @@
 .container--listLayout{
     max-width: 100%!important;
 }
+.element {
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
 
 /* FORMATO DE GRID */
 :global(.vtex-search-result-3-x-galleryItem--grid) .element{

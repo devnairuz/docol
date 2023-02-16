@@ -108,7 +108,7 @@
       },
       "infinite": true,
       "paginationDot": false,
-      "fullWidth": false,
+      "fullWidth": true,
       "blockClass": "shelf"
     }
   },
@@ -126,6 +126,4 @@
       "textAlignment": "center"
     }
   }
-
-
 }

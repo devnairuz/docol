@@ -4,26 +4,25 @@
       "add-to-list-btn",
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
+      "flex-layout.row#prices-wrapper",
       "flex-layout.row#actions"
     ]
   },
-  "product-summary-space": {
-    "props": {
-      "blockClass": "grid_espaco"
-    }
-  },
   "flex-layout.row#actions": {
     "props": {"blockClass": "wrapper__product-actions"},
-    "children": ["product-summary-quantity#quick", "add-to-cart-button"]
+    "children": ["add-to-cart-button#add-to-cart", "add-to-cart-button#quick-buy"]
   },
-  "product-summary-quantity#quick": {
+
+  "add-to-cart-button#add-to-cart": {
     "props": {
-      "showLabel": false,
-      "size": "regular"
+      "blockClass": "add_to_cart_default"
+    }
+  },
+  "add-to-cart-button#quick-buy": {
+    "props": {
+      "isOneClickBuy": true,
+      "text": "COMPRE AGORA",
+      "blockClass": "quick_buy"
     }
   },
 
@@ -37,9 +36,9 @@
 
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
+      "showBadge": true,
       "aspectRatio": "1:1",
-      "maxHeight": 300,
+      "maxHeight": 240,
       "hoverImage": { "criteria":"index"}
     }
   },
@@ -62,6 +61,32 @@
     }
   },
 
+  "flex-layout.row#prices-wrapper": {
+    "props": {
+      "blockClass": "prices__wrapper"
+    },
+    "children": [
+      "flex-layout.col#prices-container"
+    ]
+  },
+
+  "flex-layout.col#prices-container": {
+    "children": [
+      "flex-layout.row#price-savings",
+      "flex-layout.row#installments-summary"
+    ]
+  },
+
+  "flex-layout.row#price-savings": {
+    "props": {
+      "blockClass": "price__savings"
+    },
+    "children": [
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings"
+    ]
+  },
+
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"
@@ -72,12 +97,20 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass": "selling__savings"
     },
     "children": [
       "product-selling-price#summary",
       "product-price-savings#summary"
     ]
+  },
+
+  "flex-layout.row#installments-summary": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["product-installments#summary"]
   },
   "product-installments#summary": {
     "props": {

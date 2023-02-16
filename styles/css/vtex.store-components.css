@@ -86,6 +86,16 @@
   line-height: 0;
 }
 
+.discountInsideContainer {
+  position: absolute;
+  left: 17px;
+  right: unset;
+  top: 7px;
+  padding: 5px 14px;
+  background: #00A9E0;
+  font-size: 14px;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;

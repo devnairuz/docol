@@ -16,9 +16,9 @@
 }
 
 .minicartQuantityBadge {
-  background: #002D71;
-  top: -0.2rem;
-  right: 0.2rem;
+  background: #979797;
+  top: -2px;
+  right: -12px;
 }
 
 .minicartIconContainer {

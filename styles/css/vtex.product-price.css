@@ -1,6 +1,5 @@
 .listPrice {
   color: #727273;
-  margin-bottom: .25rem;
   font-size: 1rem;
 }
 
@@ -10,10 +9,9 @@
 }
 
 .sellingPriceValue {
-  font: normal normal 600 28px/42px Poppins Regular;
-color: #202020;
-font-size: 17px !important;
-font-weight: 600 !important;
+  color: #202020;
+  font-size: 21px !important;
+  font-weight: 400 !important;
 }
 
 .installments {
@@ -30,7 +28,6 @@ font-weight: 600 !important;
   font-size: 1.25rem;
   font-weight: 600;
   color: #2E2E2E;
-  padding-left: 1rem;
 }
 
 .savings--summary {
@@ -52,9 +49,13 @@ font-weight: 600 !important;
 }
 
 .listPrice--summary {
-  margin-bottom: 0.25rem;
-  font-size: .875rem;
-  padding-left: 1rem;
+  color: #979797;
+  font-size: 12px;
+  padding-right: 7px;
+}
+
+.currencyLiteral--summary {
+  display: none;
 }
 
 .installments--summary {
