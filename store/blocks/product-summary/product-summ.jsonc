@@ -4,13 +4,22 @@
         "add-to-list-btn",
         "stack-layout#prodsum",
         "product-summary-name",
-
-        "product-summary-space",
-        "product-list-price#summary",
-        "flex-layout.row#selling-price-savings",
-        "product-installments#summary",
+        "flex-layout.row#cat-prices-wrapper",
+        "flex-layout.row#cat-parcels-wrapper",
         "flex-layout.row#actions-category"
       ]
+    },
+    "flex-layout.row#cat-prices-wrapper": {
+      "props": {
+        "blockClass": "prices__wrapper__cat"
+      },
+      "children": [
+        "product-list-price#summary",
+        "flex-layout.row#selling-price-savings"
+      ]
+    },
+    "flex-layout.row#cat-parcels-wrapper": {
+      "children": ["product-installments#summary"]
     },
     "flex-layout.row#actions-category": {
       "props": {"blockClass": "wrapper__product-actionsC"},

@@ -166,5 +166,14 @@
   padding-top: 2rem;
 }
 
-/*footer*/
-
+.flexRowContent--prices__wrapper__cat {
+  align-items: center;
+  margin-bottom: 4px;
+  padding: 0 20px;
+}
+.flexRowContent--prices__wrapper__cat .stretchChildrenWidth {
+  max-width: fit-content;
+}
+.flexRow--wrapper__product-actionsC {
+  padding: 0 20px;
+}
