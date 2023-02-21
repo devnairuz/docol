@@ -1,0 +1,10 @@
+.summaryItemContainer--minicart-totalizers:first-child {
+  display: none;
+}
+
+.summaryItemLabel--minicart-totalizers,
+.summaryItemPrice--minicart-totalizers {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}

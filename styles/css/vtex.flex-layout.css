@@ -177,3 +177,20 @@
 .flexRow--wrapper__product-actionsC {
   padding: 0 20px;
 }
+
+/* MINICART */
+.flexRowContent--minicart--row-top :global(.vtex-product-list-0-x-productBrandName) {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.flexRowContent--minicart--row-top .stretchChildrenWidth:first-child {
+  max-width: 207px;
+}
+.flexRowContent--minicart--row-top :global(.vtex-product-list-0-x-productName) {
+  font-size: 18px;
+  line-height: 23px;
+  color: #343434;
+}
+.flexRowContent--qty-price__container {
+  align-items: center;
+}
