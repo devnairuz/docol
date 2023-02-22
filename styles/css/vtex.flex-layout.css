@@ -190,6 +190,8 @@
   font-size: 18px;
   line-height: 23px;
   color: #343434;
+  max-height: 72px;
+  overflow: hidden;
 }
 .flexRowContent--qty-price__container {
   align-items: center;
