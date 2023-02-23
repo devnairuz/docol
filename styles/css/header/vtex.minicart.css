@@ -6,3 +6,9 @@
     width: 25px;
     height: 28px;
 }
+
+@media (max-width: 1024px) {
+    .openIconContainer {
+        padding: 0;
+    }
+}

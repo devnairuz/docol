@@ -13,15 +13,14 @@
   },
 
   // MOBILE
-  "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
-  },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile"
     ]
   },
-
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
+  },
 
   "flex-layout.row#1-mobile":{
     "props": {
@@ -68,8 +67,8 @@
   },
   "login#login-mobile":{
     "props": {
-      "showIconProfile": true,
-      "viewBox": "0, 0, 38.713, 32.978"
+      "hideIconLabel": true,
+      "showIconProfile": true
     }
   },
   "login#login-mobile_menu":{
@@ -107,9 +106,7 @@
       "href": "/",
       "url": "assets/header/logo-docol.svg",
       "width": 129,
-      "height": 57,
-      "mobileWidth": 90,
-      "mobileHeight": 32
+      "height": 57
     }
   },
 

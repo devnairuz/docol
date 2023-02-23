@@ -131,18 +131,34 @@
   flex-direction: row;
   justify-content: center;
   gap: 15px;
-
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
 .flexColChild--wrapper__deals{
   display: flex;
   align-items: center;
-
 }
 
 /* MOSAICO */
 .flexRowContent--wrapper__mosaicos,
 .flexCol--wrapper__mosaico {
   justify-content: space-between;
+  line-height: 0;
+  gap: 15px;
+  align-items: center;
+}
+.flexRowContent--wrapper__mosaicos .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--wrapper__mosaicos .stretchChildrenWidth:first-child {
+  max-width: 650px;
+}
+.flexRowContent--wrapper__mosaicos .stretchChildrenWidth:last-child {
+  max-width: 475px;
+}
+.flexCol--wrapper__mosaico {
+  align-items: end;
 }
 
 /* CARROSSEL DE PRODUTOS */
@@ -195,4 +211,10 @@
 }
 .flexRowContent--qty-price__container {
   align-items: center;
+}
+
+@media (max-width: 1199px) {
+  .flexRowContent--header__menu :global(.vtex-category-menu-2-x-itemContainer):not(:first-child) {
+    margin-left: 31px;
+  }
 }

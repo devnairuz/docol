@@ -7,6 +7,13 @@
 .diagonalCross {
   background-image: none;
 }
+
+@media (max-width: 1099px) {
+  .searchBarContainer {
+    width: 450px!important;
+  }
+}
+
 @media (max-width: 991px) {
   .logoLink {
     text-align: center;

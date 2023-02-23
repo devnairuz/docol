@@ -134,8 +134,8 @@
 }
 .paragraph--text__atendimento {
   font: normal normal 300 15px/13px Poppins Regular;
-    color: #202020;
-    position: relative;
+  color: #202020;
+  position: relative;
 }
 
 
@@ -203,6 +203,18 @@
     right: -22px;
     top: 19px;
     display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .paragraph--deals {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .paragraph--text__atendimento {
+    font-size: 13px;
   }
 }
 

@@ -13,8 +13,7 @@
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center",
-            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo"],
-            "width": "57%"
+            "blockClass": ["wrapper__mosaico", "wrapper__mosaico-baixo"]
         },
         "children": ["image#baixo-one"]
     },

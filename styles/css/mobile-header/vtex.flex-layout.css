@@ -1,7 +1,8 @@
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .flexRowContent--main-header-mobile {
-    background: #002D71 !important;
+    background: #E3E3E2 !important;
     justify-content: center;
+    gap: 20px;
   }
   .flexRow--searchmob {
     background: #fff;
@@ -13,13 +14,13 @@
     margin-top: 1rem;
   }
   .flexRow--logo__mobile {
-    padding: 5px 0;
+    padding: 20px 0;
   }
   .flexRow--logo__mobile, .flexRow--main-header-mobile {
     background: #fff;
   }
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebar) {
-    background-color: #002D71;
+    background-color: #E3E3E2;
     padding: 2rem;
   }
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebarItemContainer) {
@@ -40,8 +41,9 @@
     backdrop-filter: inherit;
   }
   .flexRowContent--main-header-mobile {
-    background: #002D71 !important;
+    background: #E3E3E2 !important;
     justify-content: center;
+    gap: 20px;
   }
   .flexRow--searchmob {
     background: #fff;

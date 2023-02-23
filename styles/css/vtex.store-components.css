@@ -1,5 +1,6 @@
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -94,6 +95,12 @@
   padding: 5px 14px;
   background: #00A9E0;
   font-size: 14px;
+}
+
+.logoContainer .sizeMobile {
+  max-width: 140px;
+  max-height: 30px;
+  min-width: initial;
 }
 
 @media only screen and (min-width: 640px) {
