@@ -5,5 +5,9 @@
 
   "footer-custom": {
     "component": "FooterCustomWrapper"
+  },
+
+  "product-custom": {
+    "component": "ProductContext"
   }
 }

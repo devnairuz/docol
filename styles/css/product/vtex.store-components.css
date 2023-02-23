@@ -1,11 +1,13 @@
 .shippingContainer :global(.vtex-button){
-    background-color: #000;
+    background: #616366 0% 0% no-repeat padding-box;
     border: none;
     height: 40px;
+    border-radius: 0;
+    color: #fff;
 }
 .shippingContainer{
   display: flex;
-    align-items: center;
+  align-items: start;
 }
 .productNameContainer--quickview {
   font: normal normal 24px/35px Poppins Regular;

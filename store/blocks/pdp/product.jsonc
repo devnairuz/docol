@@ -32,6 +32,11 @@
       "title": "Detalhes do produto"
     }
   },
+  "product-custom": {
+    "props": {
+      "blockClass": "short-description"
+    }
+  },
 
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -41,6 +46,12 @@
     "children": ["breadcrumb"]
   },
 
+  // "flex-layout.row#description": {
+  //   "props": {
+  //     "marginBottom": 7
+  //   },
+  //   "children": ["product-description"]
+  // },
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -123,7 +134,9 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+      "flex-layout.row#add-to-cart-button",
       "availability-subscriber",
+      "flex-layout.row#label-shipping",
       "shipping-simulator"
     ]
   },
@@ -158,11 +171,48 @@
     },
     "children": ["product-quantity", "add-to-cart-button#pdp"]
   },
-  "add-to-cart-button#pdp":{
+
+  "product-quantity": {
     "props": {
-      "text": "Comprar"
+      "width": "25%"
     }
   },
+
+  "add-to-cart-button#pdp":{
+    "props": {
+      "text": "Compre Agora",
+      "width": "75%"
+    }
+  },
+
+  "flex-layout.row#add-to-cart-button": {
+    "children": [
+      "add-to-cart-button#second"
+    ],
+    "props": {
+      "blockClass": "add-to-cart-second"
+    }
+  },
+
+  "add-to-cart-button#second":{
+    "props": {
+      "text": "Adicionar ao carrinho",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#label-shipping": {
+    "children": [
+      "rich-text#label-shipping"
+    ]
+  },
+
+  "rich-text#label-shipping": {
+    "props": {
+      "text": "Entrega"
+    }
+  },
+
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,
@@ -186,8 +236,15 @@
       "product-identifier.product",
       "sku-selector",
       "product-specification-group#table",
+      "flex-layout.row#mini-descricao",
       "flex-layout.row#availability"
     ]
+  },
+  "flex-layout.row#mini-descricao": {
+    "children": ["product-custom"],
+    "props": {
+      "blockClass": "mini-descricao"
+    }
   },
 
   "flex-layout.row#availability": {

@@ -1,7 +1,14 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--wrapper__buy) :global(.vtex-button),
 :global(.vtex-flex-layout-0-x-flexRowContent--wrapper__buy) :global(.vtex-button):hover{
-  background: #F48120 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
+    background: #00A9E0 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
     border:  none;
+    border-radius: 0;
+    height: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-second) :global(.vtex-button) {
+    background: #616366 0% 0% no-repeat padding-box;
+    border: unset;
     border-radius: 0;
 }

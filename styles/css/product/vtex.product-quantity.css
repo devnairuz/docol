@@ -1,3 +1,9 @@
 :global(.vtex-flex-layout-0-x-flexRow--wrapper__product) .quantitySelectorTitle{
     display: none;
 }
+
+.quantitySelectorStepper :global(.vtex-styleguide-9-x-hideDecorators) {
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F1F1F1;
+}
