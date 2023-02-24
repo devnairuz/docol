@@ -1,10 +1,6 @@
 .galleryLayoutSwitcher {
   display: none;
 }
-.searchResultContainer{
-    width: 1200px;
-    margin: 0 auto;
-}
 
 :global(.vtex-search-result-3-x-searchResultContainer) .galleryItem--grid{
     flex-basis: 33% !important;
