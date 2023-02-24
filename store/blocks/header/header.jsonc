@@ -145,7 +145,7 @@
   "rich-text#boxatendimento": {
     "props": {
       "blockClass": "box-atendimento",
-      "text": "Telefone: [0800 474 3333](/tel:08004743333)\n Telefone: [0800 474 9000](/tel:08004749000)\n E-mail:[dresponde@docol.com.br](mailto:dresponde@docol.com.br)\nHorário de Atendimento:\n De Segunda à Sexta-feira:\n das 7h às 17h."
+      "text": "Telefone: [0800 474 3333](tel:08004743333)\n Telefone: [0800 474 9000](tel:08004749000)\n E-mail:[dresponde@docol.com.br](mailto:dresponde@docol.com.br)\nHorário de Atendimento:\n De Segunda à Sexta-feira:\n das 7h às 17h."
     }
   },
 

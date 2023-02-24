@@ -174,7 +174,7 @@
     "props": {
       "src": "assets/redes-sociais/icon-instagram.svg",
       "link": {
-        "url": "https://www.instagram.com/krauerstore/",
+        "url": "https://www.instagram.com/docoloficial/",
         "newTab": true
      },
      "blockClass": ["image__icons", "social__icons"]
@@ -184,7 +184,7 @@
     "props": {
       "src": "assets/redes-sociais/icon-facebook.svg",
       "link": {
-        "url": "https://www.facebook.com/krauerstore",
+        "url": "https://www.facebook.com/docoloficial/",
         "newTab": true
      },
      "blockClass": ["image__icons", "social__icons"]
@@ -194,7 +194,7 @@
     "props": {
       "src": "assets/redes-sociais/icon-linkedin.svg",
       "link": {
-        "url": "https://www.linkedin.com/company/krauer-com%C3%A9rcio-eletr%C3%B4nico-ltda/",
+        "url": "https://www.linkedin.com/company/docoloficial/",
         "newTab": true
      },
      "blockClass": ["image__icons", "social__icons"]
@@ -204,7 +204,7 @@
     "props": {
       "src": "assets/redes-sociais/icon-youtube.svg",
       "link": {
-        "url": "https://www.youtube.com/channel/UCbMaLVj9D56ijx5uWf_cyCA",
+        "url": "https://www.youtube.com/user/docoltube",
         "newTab": true
      },
      "blockClass": ["image__icons", "social__icons"]
@@ -214,7 +214,7 @@
     "props": {
       "src": "assets/redes-sociais/icon-pinterest.svg",
       "link": {
-        "url": "https://www.youtube.com/channel/UCbMaLVj9D56ijx5uWf_cyCA",
+        "url": "https://br.pinterest.com/DocolOficial/",
         "newTab": true
      },
      "blockClass": ["image__icons", "social__icons"]
@@ -311,13 +311,13 @@
   },
   "rich-text#telefone": {
     "props": {
-      "text": "**DocolResponde:**\n [0800 474 3333](/tel:08004743333)",
+      "text": "**DocolResponde:**\n [0800 474 3333](tel:08004743333)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#whats":{
     "props": {
-      "text": "**DocolTelevendas:**\n [0800 474 9000](/tel:08004749000)",
+      "text": "**DocolTelevendas:**\n [0800 474 9000](tel:08004749000)",
       "link": {
         "newTab": true
       },
