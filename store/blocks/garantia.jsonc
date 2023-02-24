@@ -20,14 +20,14 @@
   },
   "rich-text#sobregarantia": {
     "props": {
-      "text": "### O que é a Garantia Exclusiva Krauer?\nGarantimos aos nossos clientes que dentro do período de 12 meses, faremos a troca do seu produto caso seja identificado qualquer defeito de fabricação.",
+      "text": "### O que é a Garantia Exclusiva Docol?\nGarantimos aos nossos clientes que dentro do período de 12 meses, faremos a troca do seu produto caso seja identificado qualquer defeito de fabricação.",
       "textAlignment": "initial",
       "textPosition": "initial"
     }
   },
   "rich-text#sobregarantia--exclusiva": {
     "props": {
-      "text": "### Por que oferecemos e por que é exclusiva?\nEsse é um compromisso que assumimos por termos a certeza da qualidade, durabilidade, segurança e alto desempenho dos nossos produtos e entendemos que devemos estar lado a lado dos nossos clientes em toda a sua experiência com nossos produtos. É exclusiva porque o mercado oferece 3 meses padrão de garantia, mas nós da Krauer, vamos além e deixamos o cliente tranquilo durante um ano inteiro.",
+      "text": "### Por que oferecemos e por que é exclusiva?\nEsse é um compromisso que assumimos por termos a certeza da qualidade, durabilidade, segurança e alto desempenho dos nossos produtos e entendemos que devemos estar lado a lado dos nossos clientes em toda a sua experiência com nossos produtos. É exclusiva porque o mercado oferece 3 meses padrão de garantia, mas nós da Docol, vamos além e deixamos o cliente tranquilo durante um ano inteiro.",
       "textAlignment": "initial",
       "textPosition": "initial"
     }
