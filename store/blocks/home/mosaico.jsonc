@@ -1,6 +1,6 @@
 {
     "flex-layout.row#mosaicos_topo": {
-        "props": {"blockClass": "wrapper__mosaicos"},
+        "props": {"blockClass": ["wrapper__mosaicos", "wrapper__mosaicos--topo"]},
         "children": [
             "flex-layout.col#mosaico_one",
             "flex-layout.col#mosaico_two",

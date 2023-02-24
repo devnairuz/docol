@@ -28,6 +28,7 @@
 }
 
 .flexRowContent--seloscontrole {
+  display: flex;
   align-items: baseline;
   gap: 12px;
 }
@@ -38,7 +39,6 @@
 
 /* Copyright */
 .flexRow--wrapper__copy{
-    margin: 40px auto 0!important;
     padding: 10px 0;
     border-top: .5px solid #b1b1b1;
 }
@@ -78,14 +78,22 @@
     top: 6px;
 }
 
+.flexRowContent--social-icons-container {
+  gap: 20px;
+}
+.flexRowContent--social-icons-container .stretchChildrenWidth {
+  width: 100% !important;
+  max-width: fit-content;
+}
+
 @media only screen and (max-width: 1024px) {
   .flexRow--wrapper {
     width: 100% !important;
   }
-  .flexRow--deals, .flexRow--controleinstagram, .flexCol--wrapper__assinatura::before {
+  .flexRow--controleinstagram, .flexCol--wrapper__assinatura::before {
     display: none;
   }
-  .flexRow--wrapper__footer, .flexRow--wrapper__icons {
+  .flexRow--wrapper__icons {
     display: contents;
   }
   .flexRowContent--redesocial {
@@ -101,9 +109,22 @@
   .flexRow--deals, .flexRow--controleinstagram, .flexCol--wrapper__assinatura::before, .flexCol--imagem1::before {
     display: none;
   }
-  .flexRow--wrapper__footer, .flexRow--wrapper__icons {
+  .flexRow--wrapper__icons {
     display: contents;
   }
+  .flexRowContent--wrapper__footer {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .flexColChild--wrapper__column {
+    width: inherit;
+  }
+  .flexCol--wrapper__column,
+  .flexColChild--wrapper__icon {
+    align-items: center;
+  }
+
+  .flexRowContent--wrapper__footer .stretchChildrenWidth,
   .flexRowContent--wrapper__icons .stretchChildrenWidth, .flexRow--wrapper__copy{
     width: 100%!important;
   }
@@ -111,8 +132,12 @@
     display: flex;
     text-align: center;
   }
+  .flexRowContent--social-icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
   .flexCol--wrapper__assinatura {
     text-align: center;
   }
-
 }

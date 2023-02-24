@@ -69,3 +69,18 @@
     padding: 2rem 0;
   }
 }
+
+@media (max-width: 639px) {
+  .sliderRightArrow, .sliderLeftArrow {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #616366;
+    top: 40%;
+  }
+  .sliderRightArrow {
+    right: 0;
+  }
+  .sliderLeftArrow {
+    left: 0;
+  }
+}

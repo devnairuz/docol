@@ -28,7 +28,11 @@
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  border-radius: 0;
   padding: 0;
+}
+.searchBarInnerContainer :global(.vtex-input__suffix) {
+  border-radius: 0;
 }
 
 :global(.vtex-address-form__postalCode) {
@@ -37,9 +41,6 @@
 @media (max-width: 991px) {
   :global(.vtex-search-result-3-x-searchResultContainer) {
     width: 100%;
-  }
-  :global(.vtex-store-components-3-x-searchBarContainer) {
-    box-shadow: inherit;
   }
 }
 

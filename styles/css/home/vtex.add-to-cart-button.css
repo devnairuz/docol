@@ -9,6 +9,7 @@
   border: none!important;
   border-radius: 0;
   min-height: initial;
+  background: #00a9e0;
 }
 
 .buttonDataContainer--add_to_cart_default {

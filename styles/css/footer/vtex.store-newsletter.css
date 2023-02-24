@@ -32,3 +32,22 @@
   color: #fff;
   line-height: 40px;
 }
+
+.newsletterForm :global(.vtex-input-prefix__group) {
+  border: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .newsletterForm--newsletter__block {
+    margin: 0;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nameInputContainer {
+    max-width: 100%;
+  }
+  .newsletterForm :global(.vtex-input-prefix__group),
+  .emailInputContainer {
+    margin: 0;
+  }
+}

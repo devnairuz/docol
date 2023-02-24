@@ -68,7 +68,8 @@
   "login#login-mobile":{
     "props": {
       "hideIconLabel": true,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "blockClass": "mini-login-mobile"
     }
   },
   "login#login-mobile_menu":{

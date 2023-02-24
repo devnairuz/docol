@@ -2,123 +2,34 @@
   "flex-layout.row#dealsmob": {
     "children": ["flex-layout.col#benemob"]
   },
+
   "flex-layout.col#benemob": {
     "children": ["slider-layout#listabene"],
     "props": {
       "width": "100%"
     }
   },
-  "slider-layout#listabene": {
-    "children": ["flex-layout.col#imagegarantia", "flex-layout.col#imageparcela", "flex-layout.col#imagedesconto", "flex-layout.col#seguro"],
-    "props": {
-        "blockClass": "sliderbene",
-        "autoplay": {
-          "timeout": 5000,
-          "stopOnHover": false
-        },
-        "itemsPerPage": {
-          "desktop": 1,
-          "tablet": 1,
-          "phone": 1
-        },
-        "infinite": true
-      }
 
-    },
-    "flex-layout.col#imagegarantia": {
-      "children":["flex-layout.row#controlebene"],
-      "props": {
-        "textPosition": "center",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true
-      }
-    },
-    "flex-layout.row#controlebene": {
-      "children": ["image#thumbs", "rich-text#dea1"]
-    },
-    "image#thumbs": {
-      "props": {
-        "src": "assets/beneficios/thumbs-up.svg"
-      }
-    },
-    "rich-text#dea1": {
-      "props": {
-        "text": "**Exclusivo: Garantia** \n Krauer de 12 meses*",
-        "blockClass": "deals"
-      }
-    },
-    "flex-layout.col#imageparcela": {
-      "children":["flex-layout.row#controlebene2"],
-      "props": {
-        "textPosition": "center",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true
-      }
-    },
-    "flex-layout.row#controlebene2": {
-      "children": ["image#credito", "rich-text#dea2"]
-    },
-    "image#credito": {
-      "props": {
-        "src": "assets/beneficios/credit-card.svg"
-      }
-    },
-    "rich-text#dea2": {
-      "props": {
-        "text": "Parcelamento em \n **até 8x sem juros**",
-        "blockClass": "deals"
-      }
-    },
-    "flex-layout.col#imagedesconto": {
-      "children":["flex-layout.row#controlebene3"],
-      "props": {
-        "textPosition": "center",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true
-      }
-    },
-    "flex-layout.row#controlebene3": {
-      "children": ["image#boleto", "rich-text#dea3"]
-    },
-    "image#boleto": {
-      "props": {
-        "src": "assets/beneficios/barcode.svg"
-      }
-    },
-    "rich-text#dea3": {
-      "props": {
-        "text": "**Desconto de 10%** \n(Boleto/Pix/Crédito à vista)",
-        "blockClass": "deals"
-      }
-    },
-    "flex-layout.col#seguro": {
-      "children":["flex-layout.row#controlebene4"],
-      "props": {
-        "textPosition": "center",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true
-      }
-    },
-    "flex-layout.row#controlebene4": {
-      "children": ["image#seguro", "rich-text#dea4"]
-    },
-    "image#seguro": {
-      "props": {
-        "src": "assets/beneficios/security.svg"
-      }
-    },
-    "rich-text#dea4": {
-      "props": {
-        "text": "Compra garantida \n**loja 100% segura**",
-        "blockClass": "deals"
-      }
+  "slider-layout#listabene": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals5"
+    ],
+    "props": {
+      "blockClass": "sliderbene",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true
     }
+  }
 }

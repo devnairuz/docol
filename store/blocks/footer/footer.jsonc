@@ -4,7 +4,7 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#newslettermobile",
+      "flex-layout.row#newsletter",
       "flex-layout.row#footer",
       "flex-layout.row#footer_copyright"
     ]
@@ -158,6 +158,9 @@
   },
 
   "flex-layout.row#social-icons": {
+    "props": {
+      "blockClass": "social-icons-container"
+    },
     "children": [
       "image#linkedin",
       "image#face",

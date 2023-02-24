@@ -25,11 +25,9 @@
   }
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebarItemContainer) {
     font-size: 12px;
-    font-family: 'Poppins Regular';
     letter-spacing: 2.04px;
-    color: #FFFFFF;
     text-transform: uppercase !important;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #D0D0D0;
     padding: 1rem 0;
   }
 
@@ -54,23 +52,19 @@
     align-items: center;
     margin-top: 1rem;
   }
-  .flexRow--logo__mobile {
-    padding: 5px 0;
-  }
+  
   .flexRow--logo__mobile, .flexRow--main-header-mobile {
     background: #fff;
   }
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebar) {
-    background-color: #002D71;
+    background-color: #E3E3E2;
     padding: 2rem;
   }
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebarItemContainer) {
     font-size: 12px;
-    font-family: 'Poppins Regular';
     letter-spacing: 2.04px;
-    color: #FFFFFF;
     text-transform: uppercase !important;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #D0D0D0;
     padding: 1rem 0;
   }
 

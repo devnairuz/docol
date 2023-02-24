@@ -1,18 +1,11 @@
-.sidebarContainer .pointer {
-  padding: 0;
-}
-
 @media (max-width: 1024px) {
   .plusIcon, .minusIcon {
     width: 10px;
   }
 }
 
-
 @media (max-width: 991px) {
   .plusIcon, .minusIcon {
     width: 10px;
   }
 }
-
-

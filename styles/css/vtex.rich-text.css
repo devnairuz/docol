@@ -218,11 +218,15 @@
   }
 }
 
-@media (max-width: 991px) {
-  .wrapper--shelfTitle::after {
-    display: none;
+@media (max-width: 767px) {
+  .wrapper--label-news .paragraph {
+    margin: 0;
+    text-align: center;
   }
-  .wrapper--shelfTitle {
-    justify-content: center;
+}
+
+@media (max-width: 639px) {
+  .wrapper--shelfTitle.wrapper--text_mais::after {
+    max-width: 150px;
   }
 }
