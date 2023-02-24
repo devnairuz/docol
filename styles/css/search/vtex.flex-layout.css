@@ -33,6 +33,12 @@
   margin-bottom: 0.25rem
 }
 
+@media (max-width: 1024px) {
+  .flexRowContent--grid-list-info {
+    justify-content: center;
+  }
+}
+
 /* efeito */
 @media (min-width: 1000px){
 
@@ -45,6 +51,4 @@
     display: flex;
     transition: all .4s linear;
   }
-
-
 }

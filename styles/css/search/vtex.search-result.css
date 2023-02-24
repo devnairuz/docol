@@ -2,6 +2,10 @@
   display: none;
 }
 
+.filterPopupButton {
+  height: initial;
+}
+
 :global(.vtex-search-result-3-x-searchResultContainer) .galleryItem--grid{
     flex-basis: 33% !important;
     max-width: 33% !important;

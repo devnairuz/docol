@@ -111,6 +111,9 @@
     }
   },
   "flex-layout.row#searchinfo": {
+    "props": {
+      "blockClass": "grid-list-info"
+    },
     "children": ["flex-layout.col#productCount", "flex-layout.row#orderByAndSwitcher"]
   },
   "flex-layout.row#orderByAndSwitcher": {
@@ -186,13 +189,13 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "colJustify": "around"
+      "colJustify": "around",
+      "blockClass": "grid-list-info"
     }
   },
 
