@@ -35,7 +35,7 @@
     "children": [
       "category-menu#mob",
       "search-bar",
-      "login#login-mobile",
+      "flex-layout.col#mobile-login",
       "minicart.v2"
     ],
     "props": {
@@ -53,7 +53,8 @@
       "showSubcategories": true,
       "menuDisposition": "center",
       "sortSubcategories": "name",
-      "mobileMode": true
+      "mobileMode": true,
+      "blockClass": "mob-menu-container"
     }
   },
 
@@ -65,13 +66,21 @@
       "width": "130"
     }
   },
+
+  "flex-layout.col#mobile-login": {
+    "children": ["image#login", "login#login-mobile"],
+    "props": {
+      "blockClass": "mini-login-mobile-container"
+    }
+  },
   "login#login-mobile":{
     "props": {
       "hideIconLabel": true,
-      "showIconProfile": true,
+      "showIconProfile": false,
       "blockClass": "mini-login-mobile"
     }
   },
+
   "login#login-mobile_menu":{
     "props": {
       "showIconProfile": false,

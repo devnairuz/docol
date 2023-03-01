@@ -7,6 +7,10 @@
     height: 28px;
 }
 
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    max-height: 28px;
+}
+
 @media (max-width: 1024px) {
     .openIconContainer {
         padding: 0;
