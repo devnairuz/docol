@@ -5,16 +5,12 @@
 .label {
   padding: 0;
   width: 80px;
-  font: normal normal 300 15px/13px Poppins Regular;
   color: #202020;
   text-transform: initial;
   text-align: initial;
 }
 :global(.hover-b--action-secondary:hover) {
   background: transparent;
-}
-.vtex-button__label span {
-  font-family: Poppins Regular;
 }
 .formTitle {
   text-transform: uppercase;
@@ -50,7 +46,6 @@
 }
 
 .profile {
-  font: normal normal 300 15px/13px Poppins Regular;
   color: #202020;
 }
 

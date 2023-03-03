@@ -9,21 +9,21 @@
 @media (min-width: 1025px) {
   :global(.vtex-numeric-stepper__plus-button-container){
     position: absolute;
-    top: 2.5px;
-    right: 5px;
+    top: 7px;
+    right: 7px;
   }
   :global(.vtex-numeric-stepper__minus-button-container){
     position: absolute;
-    bottom: 2.5px;
-    right: 5px;
+    bottom: 7px;
+    right: 7px;
   }
   :global(.vtex-numeric-stepper__minus-button),
   :global(.vtex-numeric-stepper__plus-button){
-    border: 1px solid #D0D0D0!important;
+    border: none !important;
     border-radius: 0!important;
     height: 16px!important;
     width: 20px!important;
-    background-color: #D0D0D0!important;
+    background-color: #F1F1F1 !important;
   }
 
   :global(.vtex-numeric-stepper__input){

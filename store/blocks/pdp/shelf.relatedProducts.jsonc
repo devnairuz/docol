@@ -1,21 +1,44 @@
 {
-    "list-context.product-list#list-pdp-related": {
+    "flex-layout.row#product-related": {
+        "children": ["flex-layout.col#related-container"],
         "props": {
-            "blockClass": "container-related"
-        },
-        "blocks": ["product-summary.shelf"],
-        "children": ["rich-text#related-title", "slider-layout#related-products"]
+            "blockClass": "pdp-related-container"
+        }
+    },
+    "flex-layout.col#related-container": {
+        "children": ["list-context.product-list#list-pdp-related"]
     },
 
+    "list-context.product-list#list-pdp-related": {
+        "props": {
+            "blockClass": ["container-related"]
+        },
+        "blocks": ["product-summary.shelf"],
+        "children": ["flex-layout.row#related-title", "flex-layout.row#related-content"]
+    },
+
+    "flex-layout.row#related-title": {
+        "children": ["flex-layout.col#related-title"]
+    },
+    "flex-layout.col#related-title": {
+        "children": ["rich-text#related-title"]
+    },
     "rich-text#related-title": {
         "props": {
             "display": "block",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Veja também",
+            "text": "Compre também",
             "font": "t-heading-5",
             "blockClass": "related-title"
         }
+    },
+
+    "flex-layout.row#related-content": {
+        "children": ["flex-layout.col#related-content"]
+    },
+    "flex-layout.col#related-content": {
+        "children": ["slider-layout#related-products"]
     },
 
     "slider-layout#related-products": {

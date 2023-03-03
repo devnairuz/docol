@@ -93,7 +93,6 @@
 /* HOME */
 .paragraph--deals{
   text-align: left;
-  font: normal normal 16px/20px Poppins Regular;
   color: #202020;
 }
 .container--shelfTitle{
@@ -133,14 +132,14 @@
   font-size: 14px;
 }
 .paragraph--text__atendimento {
-  font: normal normal 300 15px/13px Poppins Regular;
   color: #202020;
   position: relative;
+  margin: 0;
+  line-height: 14px;
 }
 
 
 .wrapper--follow__texto {
-  font: normal normal normal 14px/21px Poppins Regular;
   color: #FFFFFF;
 }
 
@@ -153,7 +152,6 @@
   border-radius: 8px;
   padding: 0 14px;
   color: #000;
-  font: normal normal normal 14px/21px Poppins Regular;
   width: fit-content;
 }
 
@@ -172,7 +170,6 @@
 }
 
 .wrapper--404__page {
-  font: normal normal normal 35px/20px Poppins Regular;
     color: #979797;
 }
 

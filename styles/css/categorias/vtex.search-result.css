@@ -6,7 +6,6 @@
 }
 
 .orderByText{
-    font: normal normal 400 16px/25px Poppins Regular;
     margin-right: 16px;
 }
 .filterPopupTitle{
@@ -39,11 +38,9 @@
 
 .filterTitleSpan{
     color: #b1b1b1!important;
-    font: 400 20px/23px Poppins Regular;
 }
 :global(.vtex-checkbox__label){
     color: #b1b1b1!important;
-    font: 400 16px/23px Poppins Regular;
 }
 
 @media (max-width: 1024px) {

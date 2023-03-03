@@ -29,7 +29,6 @@
 }
 .firstLevelLink {
   color: #fff;
-  font: normal normal normal 12px/20px Poppins Regular;
 }
 .firstLevelList {
   padding: 0;
@@ -68,7 +67,6 @@
     }
     :global(.vtex-store-drawer-0-x-drawer) .itemContainer .departmentLink,
     :global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
-        font: normal normal normal 14px/20px Poppins Regular;
         font-weight: 400;
         text-align: left;
         border: none;

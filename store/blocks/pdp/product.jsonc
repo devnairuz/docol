@@ -3,55 +3,11 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      // "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "flex-layout.row#product-info-tabs",
+      "flex-layout.row#product-related"
     ]
   },
 
-  // DESCRIÇÃO DO PRODUTO
-  "flex-layout.row#specifications-title": {
-    "children": ["flex-layout.col#especificacao"],
-    "props": {
-      "blockClass": "titulo__especificacao"
-    }
-  },
-  "flex-layout.col#especificacao": {
-    "children": ["product-description"]
-  },
-  // "rich-text#specifications": {
-  //   "props": {
-  //     "text": "### Detalhes do produto",
-  //     "blockClass": "text__details"
-  //   }
-  // },
-  "product-description":{
-    "props": {
-      "title": "Detalhes do produto"
-    }
-  },
-  "product-custom": {
-    "props": {
-      "blockClass": "short-description"
-    }
-  },
-
-  "flex-layout.row#product-breadcrumb": {
-    "props": {
-      "marginTop": 4,
-      "blockClass": "container-breadcrumb"
-    },
-    "children": ["breadcrumb"]
-  },
-
-  // "flex-layout.row#description": {
-  //   "props": {
-  //     "marginBottom": 7
-  //   },
-  //   "children": ["product-description"]
-  // },
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -99,7 +55,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "66%",
       "rowGap": 0
     }
   },
@@ -109,8 +65,9 @@
   "product-images": {
     "props": {
       "aspectRatio": {
-        "desktop": "auto",
-        "phone": "16:9"
+        "desktop": "1:1",
+        "phone": "16:9",
+        "blockClass": "pdp-product-images"
       },
       "displayThumbnailsArrows": true
     }
@@ -137,7 +94,8 @@
       "flex-layout.row#add-to-cart-button",
       "availability-subscriber",
       "flex-layout.row#label-shipping",
-      "shipping-simulator"
+      "shipping-simulator",
+      "flex-layout.row#consulta-cep"
     ]
   },
 
@@ -202,6 +160,9 @@
   },
 
   "flex-layout.row#label-shipping": {
+    "props": {
+      "blockClass": "label-shipping-container"
+    },
     "children": [
       "rich-text#label-shipping"
     ]
@@ -210,6 +171,19 @@
   "rich-text#label-shipping": {
     "props": {
       "text": "Entrega"
+    }
+  },
+
+  "flex-layout.row#consulta-cep": {
+    "children": ["flex-layout.col#consulta-cep"]
+  },
+  "flex-layout.col#consulta-cep": {
+    "children": ["rich-text#consulta-cep"]
+  },
+  "rich-text#consulta-cep": {
+    "props": {
+      "text": "<a href='https://buscacepinter.correios.com.br/app/endereco/index.php' class='vtex-search-cep' target='_blank'>Não sei meu CEP</a>",
+      "blockClass": "consulta-cep"
     }
   },
 
@@ -236,15 +210,8 @@
       "product-identifier.product",
       "sku-selector",
       "product-specification-group#table",
-      "flex-layout.row#mini-descricao",
       "flex-layout.row#availability"
     ]
-  },
-  "flex-layout.row#mini-descricao": {
-    "children": ["product-custom"],
-    "props": {
-      "blockClass": "mini-descricao"
-    }
   },
 
   "flex-layout.row#availability": {

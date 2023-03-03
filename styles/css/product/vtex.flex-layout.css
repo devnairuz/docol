@@ -25,10 +25,34 @@
   justify-content: initial;
 }
 .flexRow--mini-descricao {
-  font: normal normal 15px/23px Poppins Regular;
     color: #7E7E7E;
     margin: 1rem 0;
     width: 80%;
 
 }
 
+.flexRowContent--wrapper__buy {
+  margin: 25px 0 10px;
+}
+.flexRowContent--wrapper__buy .stretchChildrenWidth:first-child {
+  padding-right: 8px;
+}
+
+.flexRowContent--label-shipping-container {
+  margin-top: 45px;
+}
+.flexRowContent--label-shipping-container :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #343434;
+  font-weight: 600;
+}
+
+.flexRow--info-tabs-container {
+  background: #F1F1F1;
+}
+
+.flexRowContent--pdp-related-container {
+  margin-top: 60px;
+}

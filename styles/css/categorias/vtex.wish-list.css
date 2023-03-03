@@ -3,10 +3,6 @@
     border: 0;
 }
 
-.wishlistIconContainer{
-    display: flex;
-    justify-content: flex-end;
-}
 .wrapper__right .wishlistIconContainer {
   justify-content: left;
 }

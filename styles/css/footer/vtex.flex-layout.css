@@ -62,7 +62,6 @@
   content: 'Plataforma';
     color: #979797;
     text-transform: initial;
-    font: normal normal 300 14px/13px Poppins Regular;
     position: absolute;
     right: 100px;
     top: 6px;
@@ -72,7 +71,6 @@
   content: 'Design';
     color: #979797;
     text-transform: initial;
-    font: normal normal 300 14px/13px Poppins Regular;
     position: absolute;
     right: 100px;
     top: 6px;

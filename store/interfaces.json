@@ -7,7 +7,8 @@
     "component": "FooterCustomWrapper"
   },
 
-  "product-custom": {
-    "component": "ProductContext"
+  "product-info-tabs": {
+    "component": "ProductInfoTabs",
+    "composition": "children"
   }
 }

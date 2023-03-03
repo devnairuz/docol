@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "container-breadcrumb"
+    },
+    "children": ["breadcrumb"]
+  }
+}

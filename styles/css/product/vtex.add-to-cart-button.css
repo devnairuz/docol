@@ -8,7 +8,10 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-second) :global(.vtex-button) {
-    background: #616366 0% 0% no-repeat padding-box;
+    background: #616366;
     border: unset;
     border-radius: 0;
+    text-transform: initial;
+    height: 33px;
+    min-height: initial;
 }

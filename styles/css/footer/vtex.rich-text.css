@@ -13,15 +13,12 @@
 }
 .container--text__copyright{
     color: #b1b1b1;
-    font: 300 14px/28px Poppins Regular;
-
 }
 .paragraph--text__copyright{
     margin: 0;
     font-size: 12px;
 }
 .wrapper--textoloja {
-  font: normal normal 300 14px/18px Poppins Regular;
   color: #202020;
   text-align: center;
 }

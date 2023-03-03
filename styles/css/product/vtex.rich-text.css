@@ -1,0 +1,22 @@
+.paragraph--consulta-cep {
+  margin: 10px 0 0;
+  color: #A2A2A2;
+  font-size: 12px;
+}
+.paragraph--consulta-cep :global(.vtex-search-cep) {
+  color: inherit;
+}
+
+.container--related-title {
+  justify-content: initial;
+  margin-bottom: 20px;
+}
+.paragraph--related-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #343434;
+  line-height: 25px;
+  padding: 10px 0 10px 12px;
+  border-left: 4px solid #616366;
+}
