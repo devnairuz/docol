@@ -11,6 +11,10 @@
     max-height: 28px;
 }
 
+.openIconContainer :global(.vtex-button) {
+    font-size: 13px !important;
+}
+
 @media (max-width: 1024px) {
     .openIconContainer {
         padding: 0;

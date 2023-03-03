@@ -414,7 +414,8 @@
   "image#googlesf": {
     "props": {
       "blockClass": "image__sale",
-      "src": "assets/footer/googlesafe.png"
+      "src": "assets/footer/googlesafe.png",
+      "maxWidth": "131px"
     }
   },
   "flex-layout.row#selos": {

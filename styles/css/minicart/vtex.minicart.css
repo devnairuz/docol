@@ -3,14 +3,24 @@
     border: none;
     color: #FFFFFF;
 }
-.minicartIconContainer::after {
+.minicartIconContainer::before {
   content: 'Meu Carrinho';
   position: absolute;
   left: 2.6rem;
-  top: 5px;
+  top: 3px;
   color: #202020;
   text-transform: initial;
   text-align: left;
+}
+.minicartIconContainer::after {
+  content: 'Carrinho';
+  font-size: 13px;
+  text-transform: initial;
+  position: absolute;
+  left: 41px;
+  bottom: -1px;
+  font-weight: 600;
+  color: #000;
 }
 
 .minicartQuantityBadge {

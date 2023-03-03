@@ -16,10 +16,10 @@
 .filterPopupTitle::after{
     content: '';
     position: absolute;
-    top: -5px;
+    top: -8px;
     border: 1px solid #979899;
     padding: 1rem 4.2rem;
-    left: 106px;
+    left: 90px;
 }
 
 /* FILTRO DE PESQUISA */

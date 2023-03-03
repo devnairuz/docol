@@ -93,7 +93,9 @@
 /* HOME */
 .paragraph--deals{
   text-align: left;
-  color: #202020;
+  color: #343434;
+  line-height: 18px;
+  font-weight: 300;
 }
 .container--shelfTitle{
   margin: 40px auto 15px;
@@ -135,7 +137,8 @@
   color: #202020;
   position: relative;
   margin: 0;
-  line-height: 14px;
+  line-height: 13px;
+  font-size: 13px;
 }
 
 
@@ -177,7 +180,7 @@
   margin: 0;
   color: #FFFFFF;
   line-height: 20px;
-  margin-left: 15px;
+  margin-left: 12px;
 }
 
 .wrapper--envio__title .heading--footer__title {

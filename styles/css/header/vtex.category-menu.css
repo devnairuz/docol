@@ -13,6 +13,7 @@
   margin: 0;
   font-weight: 600;
   padding: 0;
+  outline: none !important;
 }
 .itemContainer:last-child .departmentLink {
   padding: 7px 23px;
