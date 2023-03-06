@@ -10,5 +10,10 @@
   "product-info-tabs": {
     "component": "ProductInfoTabs",
     "composition": "children"
+  },
+
+  "b2e": {
+    "component": "B2E"
   }
+  
 }

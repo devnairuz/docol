@@ -1,0 +1,123 @@
+:global(.title-b2e h1) {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+:global(.title-b2e h1 span) {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 800;
+}
+
+:global(.bg-funcionario) {
+  background-image: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/login/bg-login-funcionario.png);
+  height: 562px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.selos-pagamentos-atendimento) {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+:global(.selos-pagamentos-atendimento p) {
+  color: #616366;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+:global(.selos) {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+
+:global(.coluna-selos) {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+:global(.atendimento-b2e .wrapper-colunas) {
+  display: flex;
+  gap: 35px;
+}
+
+:global(.atendimento-b2e .wrapper-colunas p) {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+:global(.atendimento-b2e .info p) {
+  font-weight: 400;
+}
+
+:global(.rodape-b2e) {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+:global(.infos-texto p) {
+  font-size: 12px;
+  line-height: 16px;
+  color: #979797;
+}
+
+:global(.infos-texto) {
+  padding-top: 10px;
+  border-top: 1px solid #D0D0D0;
+}
+
+@media (max-width: 991px) {
+  :global(.selos-pagamentos-atendimento) {
+    flex-direction: column;
+  }
+
+  :global(.atendimento-b2e .wrapper-colunas) {
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+  } 
+
+  :global(.pagamentos-b2e), :global(.atendimento-b2e) {
+    text-align: center;
+  }
+
+  :global(.selos) {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+  }
+
+  :global(.atendimento-b2e) {
+    margin-top: 30px;
+  }
+
+  :global(.selos-certificacoes) {
+    margin-top: 20px;
+  }
+
+  :global(.infos-texto p) {
+    text-align: center;
+  }
+
+  :global(.title-b2e h1 span) {
+    font-size: 28px;
+  }
+
+}

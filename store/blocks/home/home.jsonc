@@ -17,7 +17,18 @@
       "rich-text#shelf-title-destaques",
       "flex-layout.row#shelf",
       "flex-layout.row#mosaico_baixo"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+  },
+
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login-docol",
+      "forbiddenRedirectPath": "/nao-autorizado",
+      "defaultContentVisibility": "hidden"
+    }
   },
 
   "list-context.image-list#demo": {

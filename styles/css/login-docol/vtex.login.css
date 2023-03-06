@@ -1,0 +1,63 @@
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .loginOptionsContainer {
+  display: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .content--emailVerification  {
+  background: unset;
+  min-height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-button) {
+  background-color: #00A9E0;
+  height: 60px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.t-small) {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) {
+  margin-right: 0;
+  border: unset;
+  height: 50px;
+  color: #343434;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group)::placeholder {
+  color: #343434;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input::placeholder) {
+  color: #343434;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #343434;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formTitle {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: initial;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {
+  min-width: 380px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formFooter  {
+  border: unset;
+}
+
+@media (max-width: 991px) { 
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {
+    min-width: 100%;
+  }
+}

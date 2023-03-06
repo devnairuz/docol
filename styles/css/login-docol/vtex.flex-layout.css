@@ -1,0 +1,17 @@
+.flexRow--wrapper-topo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flexRow--main {
+  background-image: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/login/bg-login-funcionario.png);
+  height: 562px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-login-funcionario :global(.vtex-login-2-x-loginOptionsContainer) {
+  display: none !important;
+}

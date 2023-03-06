@@ -22,5 +22,11 @@
   },
   "store.custom#politicaprivacidade": {
     "path": "/politicas-de-privacidade"
+  },
+  "store.custom#login-docol": {
+    "path": "/login-docol"
+  },
+  "store.custom#nao-autorizado": {
+    "path": "/nao-autorizado"
   }
 }
