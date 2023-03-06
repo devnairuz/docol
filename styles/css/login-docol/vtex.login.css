@@ -18,6 +18,17 @@
   font-size: 20px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .backButton :global(.vtex-button) {
+  background-color: unset;
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .backButton :global(.t-small)  {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) {
   margin-right: 0;
   border: unset;

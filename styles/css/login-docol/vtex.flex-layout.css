@@ -15,3 +15,7 @@
 .wrapper-login-funcionario :global(.vtex-login-2-x-loginOptionsContainer) {
   display: none !important;
 }
+
+.flexRow--wrapper-login-funcionario :global(.vtex-login-2-x-content--codeConfirmation) {
+  background-color: transparent;
+}
