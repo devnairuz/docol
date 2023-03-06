@@ -33,6 +33,10 @@
   margin-bottom: 0.25rem
 }
 
+.flexRowContent--container-bread-grid-list :global(.vtex-breadcrumb-1-x-container) {
+  padding: 0;
+}
+
 @media (max-width: 1024px) {
   .flexRowContent--grid-list-info {
     justify-content: center;

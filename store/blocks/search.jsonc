@@ -78,7 +78,8 @@
     "children": ["breadcrumb.search"],
     "props": {
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "container-bread-grid-list"
     }
   },
   "flex-layout.row#searchtitle": {
