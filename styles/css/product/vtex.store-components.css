@@ -75,6 +75,24 @@
   text-transform: initial;
 }
 
+.skuSelectorItemImage {
+  width: 20px;
+  height: 20px;
+}
+.skuSelectorItem .frameAround {
+  border-color: #00A9E0;
+  border-width: 2px;
+  border-radius: 100%;
+}
+.skuSelectorInternalBox {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .shippingContainer {
     display: block;

@@ -56,3 +56,16 @@
 .flexRowContent--pdp-related-container {
   margin-top: 60px;
 }
+
+.flexRow--pdp-prices-container {
+  margin-top: 50px;
+}
+.flexRowContent--pdp-prices-container {
+  align-items: center ;
+}
+.flexRowContent--pdp-prices-container .stretchChildrenWidth {
+  width: auto !important;
+}
+.flexRowContent--pdp-prices-container .stretchChildrenWidth:first-child {
+  padding-right: 8px;
+}

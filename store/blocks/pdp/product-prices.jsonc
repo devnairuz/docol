@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#pdp-prices": {
+    "children": ["product-list-price#pdp", "product-selling-price#pdp"],
+    "props": {
+      "blockClass": "pdp-prices-container"
+    }
+  },
+
+  "product-list-price#pdp": {
+    "props": {
+      "blockClass": "list-price-pdp"
+    }
+  },
+
+  "product-selling-price#pdp": {
+    "props": {
+      "blockClass": "selling-price-pdp"
+    }
+  }
+}
