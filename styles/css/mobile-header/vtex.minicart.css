@@ -1,5 +1,6 @@
 @media (max-width: 1024px) {
-  .minicartIconContainer::after {
+  .minicartIconContainer::after,
+  .minicartIconContainer::before {
     display: none;
   }
 }

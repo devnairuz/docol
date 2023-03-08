@@ -56,7 +56,6 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel",
       "autoplay": {
         "timeout": "3000",
@@ -115,12 +114,12 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "paginationDot": false,
       "fullWidth": true,
-      "blockClass": "shelf"
+      "blockClass": ["shelf", "shelf-carousel"]
     }
   },
 

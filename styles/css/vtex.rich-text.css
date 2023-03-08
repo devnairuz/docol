@@ -227,6 +227,12 @@
 
 @media (max-width: 639px) {
   .wrapper--shelfTitle.wrapper--text_mais::after {
-    max-width: 150px;
+    max-width: 151px;
+  }
+}
+
+@media (max-width: 639px) {
+  .paragraph--deals {
+    text-align: center;
   }
 }

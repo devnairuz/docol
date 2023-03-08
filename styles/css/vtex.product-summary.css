@@ -53,3 +53,17 @@
   height: 58px;
   overflow: hidden;
 }
+
+@media (max-width: 649px) {
+  .imageContainer {
+    max-width: 128px;
+  }
+  
+  .nameContainer {
+    padding: 10px 0 20px;
+  }
+
+  .containerNormal:hover {
+    box-shadow: none;
+  }
+}

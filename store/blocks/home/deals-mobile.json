@@ -25,11 +25,12 @@
         "stopOnHover": false
       },
       "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 3,
-        "phone": 1
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
       },
-      "infinite": true
+      "infinite": true,
+      "navigationStep": 1
     }
   }
 }

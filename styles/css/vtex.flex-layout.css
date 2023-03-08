@@ -16,6 +16,7 @@
   padding: 0 20px;
 }
 .flexRowContent--price__savings {
+  display: flex;
   align-items: center;
 }
 .flexRowContent--price__savings .stretchChildrenWidth,
@@ -56,7 +57,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 12px 15px;
-  background-color: #f0f0f0;
+  background-color: #E3E3E2;
   justify-content: center;
   gap: 20px;
 }
@@ -133,7 +134,7 @@
   max-width: 1200px;
   margin: 40px auto;
 }
-.flexCol--wrapper__deals{
+.flexCol--wrapper__deals {
   flex-direction: row;
   justify-content: center;
   gap: 15px;
@@ -170,6 +171,7 @@
 
 /* CARROSSEL DE PRODUTOS */
 .flexRowContent--wrapper__product-actions{
+  display: flex;
   gap: 10px;
   justify-content: center;
   max-width: 272px;
@@ -246,5 +248,15 @@
 
   .flexRowContent--wrapper__product-actions {
     display: flex;
+    max-width: 159px;
+  }
+  
+  .flexRow--prices__wrapper {
+    padding: 0;
+  }
+
+  .flexCol--wrapper__deals {
+    flex-direction: column;
+    gap: 10px;
   }
 }

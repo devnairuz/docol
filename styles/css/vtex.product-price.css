@@ -78,3 +78,15 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+@media (max-width: 639px) {
+  .listPrice--summary {
+    font-size: 10px;
+  }
+
+  .sellingPrice,
+  .sellingPriceValue {
+    font-size: 14px !important;
+    color: #202020;
+  }
+}
