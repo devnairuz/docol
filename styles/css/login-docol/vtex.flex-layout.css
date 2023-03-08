@@ -19,3 +19,10 @@
 .flexRow--wrapper-login-funcionario :global(.vtex-login-2-x-content--codeConfirmation) {
   background-color: transparent;
 }
+
+@media (max-width: 991px) {
+  .flexRow--wrapper-topo {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}

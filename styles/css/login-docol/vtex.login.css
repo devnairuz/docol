@@ -71,4 +71,8 @@
   :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {
     min-width: 100%;
   }
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formTitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
