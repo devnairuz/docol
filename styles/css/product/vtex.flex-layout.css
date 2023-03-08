@@ -12,6 +12,10 @@
   padding: 2rem 0;
 }
 
+.flexRowContent--bread-container-pdp :global(.vtex-breadcrumb-1-x-container) {
+  padding: 0;
+}
+
 @media (min-width: 1025px) {
   .flexRow--wrapper__product-actions {
     position: absolute;

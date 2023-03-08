@@ -1,5 +1,5 @@
 /* MENU HEADER */
-.flexRowContent--header__menu :global(.vtex-category-menu-2-x-itemContainer):not(:first-child) {
+.flexRowContent--header__menu :global(.vtex-category-menu-2-x-itemContainer--department):not(:first-child) {
   margin-left: 62px;
 }
 
