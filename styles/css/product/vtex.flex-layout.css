@@ -73,3 +73,23 @@
 .flexRowContent--pdp-prices-container .stretchChildrenWidth:first-child {
   padding-right: 8px;
 }
+
+@media (max-width: 1024px) {
+  .flexRowContent--wrapper__product {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .flexRowContent--wrapper__product {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .flexRowContent--wrapper__product .stretchChildrenWidth {
+    width: 100% !important;
+  }
+  .flexRowContent--wrapper__product .stretchChildrenWidth:first-child {
+    padding-right: 0;
+  }
+}

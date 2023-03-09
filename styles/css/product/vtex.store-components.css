@@ -45,10 +45,10 @@
   border-radius: 0;
 }
 
-.swiperCaretPrev.carouselCursorDefault {
+.carouselCursorDefault {
   display: none;
 }
-.swiperCaretNext {
+.swiperCaret {
   color: #7E7E7E;
 }
 .swiperBullet--active {

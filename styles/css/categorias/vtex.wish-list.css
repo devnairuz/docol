@@ -1,6 +1,7 @@
-.wishlistIconContainer :global(.vtex-button){
+.wishlistIconContainer :global(.vtex-button) {
     background-color: transparent!important;
     border: 0;
+    min-height: initial;
 }
 
 .wrapper__right .wishlistIconContainer {

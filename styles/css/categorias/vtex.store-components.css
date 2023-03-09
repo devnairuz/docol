@@ -6,31 +6,30 @@
 :global(.vtex-numeric-stepper__minus-button__text){
   color: #000;
 }
-@media (min-width: 1025px) {
-  :global(.vtex-numeric-stepper__plus-button-container){
-    position: absolute;
-    top: 7px;
-    right: 7px;
-  }
-  :global(.vtex-numeric-stepper__minus-button-container){
-    position: absolute;
-    bottom: 7px;
-    right: 7px;
-  }
-  :global(.vtex-numeric-stepper__minus-button),
-  :global(.vtex-numeric-stepper__plus-button){
-    border: none !important;
-    border-radius: 0!important;
-    height: 16px!important;
-    width: 20px!important;
-    background-color: #F1F1F1 !important;
-  }
 
-  :global(.vtex-numeric-stepper__input){
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-  }
+:global(.vtex-numeric-stepper__plus-button-container){
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+:global(.vtex-numeric-stepper__minus-button-container){
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+:global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button){
+  border: none !important;
+  border-radius: 0!important;
+  height: 16px!important;
+  width: 20px!important;
+  background-color: #F1F1F1 !important;
+}
+
+:global(.vtex-numeric-stepper__input){
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
 }
 
 :global(.vtex-slider__base-internal),

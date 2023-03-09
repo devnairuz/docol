@@ -37,6 +37,12 @@
   line-height: initial;
 }
 
+@media (max-width: 1199px) {
+  .departmentList {
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 1100px) {
   .submenuList {
     display: block;
