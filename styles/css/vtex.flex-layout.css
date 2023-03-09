@@ -156,6 +156,9 @@
   gap: 15px;
   align-items: center;
 }
+.flexRowContent--wrapper__mosaicos--topo {
+  gap: 25px;
+}
 .flexRowContent--wrapper__mosaicos--baixo .stretchChildrenWidth {
   width: 100% !important;
 }
@@ -175,7 +178,7 @@
   gap: 10px;
   justify-content: center;
   max-width: 272px;
-  margin: 20px auto 0;
+  padding: 20px 10px 10px;
 }
 
 /*instagram*/
@@ -223,6 +226,13 @@
 }
 .flexRowContent--qty-price__container {
   align-items: center;
+}
+
+.flexRow--wrapper__mosaicos--baixo {
+  margin-bottom: 80px;
+}
+.flexColChild--wrapper__mosaico {
+  width: 100%;
 }
 
 @media (max-width: 1199px) {

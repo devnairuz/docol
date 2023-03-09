@@ -57,6 +57,8 @@
   letter-spacing: 0px;
   color: #FFFFFF;
   text-transform: initial;
+  margin: 43px 0 15px;
+  padding: 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {

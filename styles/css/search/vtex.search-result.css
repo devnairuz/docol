@@ -2,6 +2,10 @@
   display: none;
 }
 
+.gallery--grid {
+  margin-top: 30px;
+}
+
 .filterPopupButton {
   height: initial;
 }

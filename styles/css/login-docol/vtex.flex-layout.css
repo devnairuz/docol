@@ -1,7 +1,6 @@
 .flexRow--wrapper-topo {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 25px 0;
 }
 
 .flexRow--main {
@@ -22,7 +21,6 @@
 
 @media (max-width: 991px) {
   .flexRow--wrapper-topo {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding: 13px 0;
   }
 }

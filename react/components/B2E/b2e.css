@@ -5,6 +5,8 @@
   color: #FFFFFF;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 400;
+  margin: 0;
 }
 
 :global(.title-b2e h1 span) {

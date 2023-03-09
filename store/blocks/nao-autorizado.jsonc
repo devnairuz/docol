@@ -46,21 +46,17 @@
   },
 
   "flex-layout.col#topo": {
-    "children": ["logo"],
+    "children": ["logo#nao-autorizado"],
     "props": {
       "blockClass": "container"
     }
   },
 
-  "logo":{
+  "logo#nao-autorizado":{
     "props": {
       "blockClass": "logo-b2e-docol",
       "href": "/",
-      "url": "assets/header/logo-docol.svg",
-      "width": 129,
-      "height": 57,
-      "mobileWidth": 90,
-      "mobileHeight": 32
+      "url": "assets/login/logo.svg"
     }
   },
 

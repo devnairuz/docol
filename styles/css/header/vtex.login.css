@@ -49,6 +49,7 @@
 
 .profile {
   color: #202020;
+  padding: 0;
 }
 
 @media (max-width: 1099px) {

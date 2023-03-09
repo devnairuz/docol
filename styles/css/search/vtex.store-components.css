@@ -15,6 +15,7 @@
 :global(.vtex-search-result-3-x-searchResultContainer) :global(.vtex-button):hover{
   background-color: #000;
   border: none;
+  border-radius: 0;
 }
 :global(.vtex-flex-layout-0-x-flexRow--buyNowButton) :global(.vtex-button){
     background: #eee!important;

@@ -38,29 +38,27 @@
 
   "flex-layout.row#wrapper-topo": {
     "children":[
-      "flex-layout.col#topo"
+      "flex-layout.col#topo-login"
     ],
     "props": {
       "blockClass": "wrapper-topo"
     }
   },
 
-  "flex-layout.col#topo": {
-    "children": ["logo"],
+  "flex-layout.col#topo-login": {
+    "children": ["logo#docol-login"],
     "props": {
       "blockClass": "container"
     }
   },
 
-  "logo":{
+  "logo#docol-login": {
     "props": {
       "blockClass": "logo-b2e-docol",
       "href": "/",
-      "url": "assets/header/logo-docol.svg",
-      "width": 129,
-      "height": 57,
-      "mobileWidth": 90,
-      "mobileHeight": 32
+      "url": "assets/login/logo.svg",
+      "width": 162,
+      "height": 33
     }
   },
 
@@ -87,5 +85,4 @@
       "emailPlaceholder": "Insira seu e-mail"
     }
   }
-
 }

@@ -162,6 +162,18 @@
   box-shadow: 0px 3px 6px #00000061;
 }
 
+.logoContainer--logo-b2e-docol {
+  max-width: 162px;
+  max-height: 34px;
+  min-width: initial;
+}
+
+.searchBarInnerContainer {
+  max-width: 424px;
+  margin: 0 auto;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
 @media (max-width: 639px) {
   .discountInsideContainer {
     font-size: 7px;

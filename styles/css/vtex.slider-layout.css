@@ -38,6 +38,7 @@
   width: 10px;
   top: 50%;
   transform: translate(0, -50%);
+  color: #7E7E7E;
 }
 .sliderLeftArrow {
   left: 15px;
