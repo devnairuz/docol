@@ -13,3 +13,13 @@
 .currencyLiteral--list-price-pdp {
   display: none;
 }
+
+@media (max-width: 991px) {
+  .listPrice--list-price-pdp {
+    font-size: 18px;
+  }
+
+  .sellingPriceValue--selling-price-pdp {
+    font-size: 26px!important;
+  }
+}

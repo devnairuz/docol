@@ -7,6 +7,7 @@ const ProductInfoTabs = ({ children }) => {
   const { product } = useProduct();
   const [active, setActive] = useState('');
   const [productInfos, setProductInfos] = useState([]);
+  const [openTabHeader, setOpenTabHeader] = useState(false);
   
   useEffect(() => {
     setProductInfos(product?.properties)
@@ -14,13 +15,19 @@ const ProductInfoTabs = ({ children }) => {
     setActive(product?.properties[0].name)
   }, [product])
 
+  const handleBtnControl = (name) => {
+    setActive(name)
+
+    setOpenTabHeader(!openTabHeader)
+  }
+
   return (
     <div className={styles.productInfoTabs}>
-      <div className={styles.tabHeader}>
+      <div className={openTabHeader ? styles.tabHeaderOpen : styles.tabHeader}>
         {productInfos?.map((info, index) => (
           <button
             type="button"
-            onClick={() => setActive(info.name)}
+            onClick={() => handleBtnControl(info.name)}
             key={info.name}
             data-control-for={info.name}
             className={`${styles.infoControl}${active === info.name ? ` ${styles.active}`:''}`}>{info.name}</button>
@@ -29,7 +36,7 @@ const ProductInfoTabs = ({ children }) => {
         {children && (
           <button
             type="button"
-            onClick={() => setActive('Avaliações')}
+            onClick={() => handleBtnControl('Avaliações')}
             key="Avaliações"
             data-control-for="Avaliações"
             className={`${styles.infoControl}${active === "Avaliações" ? ` ${styles.active}`:''}`}>Avaliações</button>

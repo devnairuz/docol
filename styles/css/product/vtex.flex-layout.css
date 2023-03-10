@@ -88,8 +88,50 @@
 
   .flexRowContent--wrapper__product .stretchChildrenWidth {
     width: 100% !important;
+    justify-content: initial;
   }
   .flexRowContent--wrapper__product .stretchChildrenWidth:first-child {
     padding-right: 0;
+  }
+
+  .flexCol--wrapper__right {
+    position: relative;
+    z-index: 0;
+  }
+  .flexColChild--wrapper__right:first-child {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 15px;
+  }
+
+  .flexRow--pdp-prices-container {
+    margin-top: 26px;
+  }
+  .flexRowContent--pdp-prices-container {
+    display: flex;
+    gap: 10px;
+  }
+  .flexRowContent--pdp-prices-container .stretchChildrenWidth {
+    width: initial !important;
+  }
+
+  .flexRowContent--wrapper__buy,
+  .flexRow--add-to-cart-second {
+    max-width: 388px;
+  }
+
+  .flexRowContent--wrapper__buy {
+    display: flex;
+  }
+  .flexRowContent--wrapper__buy .stretchChildrenWidth:first-child {
+    max-width: 92px;
+  }
+}
+
+@media (max-width: 475px) {
+  .flexRowContent--wrapper__buy,
+  .flexRow--add-to-cart-second {
+    max-width: 100%;
   }
 }

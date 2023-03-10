@@ -23,6 +23,7 @@
   background: #fff;
   font-size: 14px;
   line-height: 20px;
+  color: #343434;
   display: none;
 }
 .tabContent p {
@@ -68,5 +69,44 @@
   .infoControl {
     padding: 12px 30px;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .productInfoTabs {
+    padding: 30px 0;
+  }
+  
+  .infoControl {
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .infoControl:not(.active) {
+    display: none;
+  }
+  .infoControl.active {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .infoControl.active::after {
+    content: url(../../assets/icons/chevron-down.svg);
+  }
+
+  .tabContent {
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  .tabHeaderOpen {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabHeaderOpen .infoControl:not(.active) {
+    display: inline-block;
+  }
+  .tabHeaderOpen .infoControl {
+    max-width: fit-content;
   }
 }

@@ -8,3 +8,14 @@
 .homeLink {
   padding: 0;
 }
+
+@media (max-width: 991px) {
+  .container {
+    font-size: 12px;
+  }
+  .homeIcon {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+  }
+}

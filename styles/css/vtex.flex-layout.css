@@ -270,3 +270,10 @@
     gap: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .flexRowContent--wrapper__product-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}

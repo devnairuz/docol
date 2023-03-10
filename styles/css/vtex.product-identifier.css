@@ -3,3 +3,10 @@
   font-size: 12px;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 991px) {
+  .product-identifier--productReference {
+    color: #343434;
+    font-size: 14px;
+  }
+}

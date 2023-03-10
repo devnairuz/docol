@@ -93,8 +93,33 @@
   display: none;
 }
 
+.skuSelectorName,
+.skuSelectorSelectorImageValue {
+  color: #343434;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 @media (max-width: 991px) {
-  .shippingContainer {
-    display: block;
+  .carouselContainer {
+    flex-direction: column-reverse;
+  }
+  .carouselGaleryCursor {
+    width: 100% !important;
+  }
+  .carouselGaleryCursor {
+    margin: 0;
+    padding: 0;
+  }
+
+  .productImagesThumbCaret,
+  .carouselGaleryThumbs {
+    display: none;
+  }
+
+  .productNameContainer {
+    max-width: 95%;
+    font-size: 22px;
+    line-height: 28px;
   }
 }

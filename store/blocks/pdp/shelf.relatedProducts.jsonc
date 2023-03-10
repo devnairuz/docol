@@ -50,7 +50,7 @@
             },
             "infinite": true,
             "fullWidth": false,
-            "blockClass": ["shelf", "slider-related"],
+            "blockClass": ["shelf", "slider-related", "shelf-carousel"],
             "arrowSize": 12
         }
     }
