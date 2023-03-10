@@ -10,7 +10,7 @@ const ProductInfoTabs = ({ children }) => {
   const [openTabHeader, setOpenTabHeader] = useState(false);
   
   useEffect(() => {
-    if(product && product.properties.length > 0) {
+    if(product && product?.properties?.length > 0) {
       setProductInfos(product.properties)
       setActive(product.properties[0].name)
     } else {
@@ -26,11 +26,9 @@ const ProductInfoTabs = ({ children }) => {
   
   if (loadingItem) return
 
-  console.log(!!productInfos.length)
-
   return (
     <>
-    {productInfos.length > 0 ? (
+    {productInfos?.length > 0 ? (
       <div className={styles.productInfoTabs}>
         <div className={openTabHeader ? styles.tabHeaderOpen : styles.tabHeader}>
           {productInfos?.map((info, index) => (
