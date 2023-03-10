@@ -8,8 +8,7 @@
 }
 
 /* FORMATO DE GRID */
-:global(.vtex-search-result-3-x-galleryItem--grid) .element{
-    /* background-color: #f0f0f0; */
+:global(.vtex-search-result-3-x-galleryItem--grid) .element {
     padding: 10px;
     height: 420px;
 }
@@ -18,4 +17,9 @@
     margin-bottom: 3rem;
   }
 }
-/* FORMATO DE LISTA */
+
+@media (max-width: 648px) {
+  :global(.vtex-search-result-3-x-galleryItem--grid) .element {
+    height: 360px;
+  }
+}

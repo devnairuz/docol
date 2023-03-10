@@ -24,8 +24,8 @@
 
 @media(max-width: 991px) {
   :global(.vtex-search-result-3-x-searchResultContainer) .galleryItem--grid {
-    flex-basis: 100% !important;
-    max-width: 100% !important;
+    flex-basis: 50% !important;
+    max-width: 50% !important;
   }
   .searchNotFoundInfo {
     padding: 1rem;

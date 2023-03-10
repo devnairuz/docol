@@ -2,10 +2,20 @@
     color: #000;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--wrapper__product-actionsC ) :global(.vtex-button){
+:global(.vtex-flex-layout-0-x-flexRowContent--wrapper__product-actionsC ) :global(.vtex-button) {
     background-color: #00A9E0 !important;
     border: none;
 }
 .buttonText--button__buyC {
   color: #fff;
+}
+
+@media (max-width: 648px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--wrapper__product-actionsC ) :global(.vtex-button) {
+    min-height: 34px;
+  }
+  .buttonText--button__buyC {
+    font-size: 12px;
+    font-weight: 600;
+  }
 }

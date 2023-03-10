@@ -79,7 +79,7 @@
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 648px) {
   .listPrice--summary {
     font-size: 10px;
   }

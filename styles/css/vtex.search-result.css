@@ -24,3 +24,9 @@
 .totalProducts--layout {
   text-transform: lowercase; 
 }
+
+@media (max-width: 1024px) {
+  .totalProducts--layout {
+    color: #A2A2A2;
+  }
+}

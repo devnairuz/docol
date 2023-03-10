@@ -248,6 +248,17 @@
   }
 }
 
+@media (max-width: 648px) {
+  .flexRowContent--prices__wrapper__cat {
+    display: flex;
+    padding: 0;
+  }
+
+  .flexRow--wrapper__product-actionsC {
+    padding: 14px 0 0;
+  }
+}
+
 @media (max-width: 639px) {
   .flexRowContent--wrapper__mosaicos--topo .stretchChildrenWidth:not(:first-child) {
     margin-top: 20px;

@@ -13,7 +13,7 @@
     position: relative;
     color: #343434;
 }
-.filterPopupTitle::after{
+.filterPopupTitle::after {
     content: '';
     position: absolute;
     top: -8px;
@@ -47,9 +47,22 @@
   :global(.vtex-search-result-3-x-searchResultContainer) {
     width: 100% !important;
   }
+
+  .filterPopupTitle,
+  .filterPopupArrowIcon {
+    color: #A2A2A2;
+  }
+  .filterPopupTitle::after,
+  .orderByText {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   .filterPopupTitle::after {
     display: none;
+  }
+
+  .filterPopupArrowIcon {
+    padding-left: 7px;
   }
 }
