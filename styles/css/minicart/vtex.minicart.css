@@ -44,6 +44,10 @@
   .minicartIconContainer::after {
     display: none;
   }
+
+  .closeIconButton {
+    color: #616366;
+  }
 }
 
 @media (max-width: 639px) {

@@ -246,6 +246,21 @@
     display: flex;
     flex-direction: column;
   }
+
+  .flexRowContent--minicart--row-top :global(.vtex-product-list-0-x-productBrandName) {
+    color: #343434;
+    font-size: 16px;
+  }
+  .flexRowContent--minicart--row-top :global(.vtex-product-list-0-x-productName) {
+    font-size: 16px;
+    line-height: 20px;
+    max-height: 60px;
+  }
+
+  .flexRowContent :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+    color: #A2A2A2 !important;
+    font-size: 12px !important;
+  }
 }
 
 @media (max-width: 648px) {

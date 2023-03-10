@@ -8,3 +8,9 @@
   font-weight: 700;
   line-height: 30px;
 }
+
+@media (max-width: 991px) {
+  .summaryItemPrice--minicart-totalizers {
+    font-size: 20px;
+  }
+}
