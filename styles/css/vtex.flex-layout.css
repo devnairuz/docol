@@ -242,6 +242,9 @@
 }
 
 @media (max-width: 991px) {
+  .flexRow--wrapper__mosaicos--baixo {
+    margin-bottom: 40px;
+  }
   .flexRowContent--wrapper__mosaicos--baixo {
     display: flex;
     flex-direction: column;
@@ -260,6 +263,11 @@
   .flexRowContent :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
     color: #A2A2A2 !important;
     font-size: 12px !important;
+  }
+
+  .flexRowContent--price__savings {
+    justify-content: center;
+    margin-top: 19px;
   }
 }
 

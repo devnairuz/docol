@@ -54,6 +54,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 991px) {
+  .productNameContainer {
+    text-align: center;
+  }
+}
+
 @media (max-width: 649px) {
   .imageContainer {
     max-width: 128px;
