@@ -84,6 +84,10 @@
   max-width: fit-content;
 }
 
+.flexRowContent--payment-flags {
+  display: flex;
+}
+
 @media only screen and (max-width: 1024px) {
   .flexRow--wrapper {
     width: 100% !important;

@@ -74,6 +74,8 @@
 
 @media (max-width: 991px) {
   .productInfoTabs {
+    position: relative;
+    z-index: 0;
     padding: 30px 0;
   }
   
@@ -89,6 +91,7 @@
     display: flex;
     align-items: center;
     gap: 7px;
+    justify-content: space-between;
   }
   .infoControl.active::after {
     content: url(../../assets/icons/chevron-down.svg);
@@ -99,14 +102,26 @@
     padding: 20px;
   }
 
+  .tabContent.active[data-content-for="Manual de Instalação"] {
+    flex-direction: column;
+    gap: 30px;
+  }
+
   .tabHeaderOpen {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    width: fit-content;
+    background: #f1f1f1;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    z-index: 10;
   }
   .tabHeaderOpen .infoControl:not(.active) {
     display: inline-block;
   }
   .tabHeaderOpen .infoControl {
-    max-width: fit-content;
+    max-width: 100%;
+    text-align: left;
   }
 }

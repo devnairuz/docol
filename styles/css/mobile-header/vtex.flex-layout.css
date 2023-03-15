@@ -67,5 +67,10 @@
     border-bottom: 1px solid #D0D0D0;
     padding: 1rem 0;
   }
+}
 
+@media (max-width: 420px) {
+  .flexRowContent--main-header-mobile {
+    gap: 10px;
+  }
 }

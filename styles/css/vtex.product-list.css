@@ -34,3 +34,11 @@
 .price--price-minicart {
   font-weight: 700;
 }
+
+@media (max-width: 639px) {
+  .removeButtonContainer {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+  }
+}

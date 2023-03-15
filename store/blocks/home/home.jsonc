@@ -39,11 +39,19 @@
       "images": [
         {
           "image": "assets/banners/home/main-carousel/banner-desk-01.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "mobileImage": "assets/banners/home/main-carousel/banner-mobile-01.png"
         },
         {
-          "image": "assets/banners/home/main-carousel/banner-desk-01.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "assets/banners/home/main-carousel/banner-desk-02.png",
+          "mobileImage": "assets/banners/home/main-carousel/banner-mobile-02.png"
+        },
+        {
+          "image": "assets/banners/home/main-carousel/banner-desk-03.png",
+          "mobileImage": "assets/banners/home/main-carousel/banner-mobile-03.png"
+        },
+        {
+          "image": "assets/banners/home/main-carousel/banner-desk-04.png",
+          "mobileImage": "assets/banners/home/main-carousel/banner-mobile-04.png"
         }
       ]
     }
@@ -56,7 +64,7 @@
         "phone": 1
       },
       "infinite": true,
-      "blockClass": "carousel",
+      "blockClass": ["carousel", "main-banner-carousel"],
       "autoplay": {
         "timeout": "3000",
         "stopOnHover": true

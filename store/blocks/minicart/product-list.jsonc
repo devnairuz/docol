@@ -45,7 +45,8 @@
       //"flex-layout.row#message.mobile"
     ],
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "minicart-product-info"
     }
   },
 

@@ -3,6 +3,7 @@
     border: none;
     color: #000 !important;
     border-radius: 0;
+    font-family: 'Muli';
 }
 
 :global(.vtex-styleguide-9-x-noAppearance)::placeholder{

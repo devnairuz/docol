@@ -118,7 +118,7 @@
   }
 
   .productNameContainer {
-    max-width: 95%;
+    max-width: calc(100% - 36px);
     font-size: 22px;
     line-height: 28px;
   }

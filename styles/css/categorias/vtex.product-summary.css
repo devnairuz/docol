@@ -12,11 +12,6 @@
     padding: 10px;
     height: 420px;
 }
-@media (max-width: 991px) {
-  .clearLink {
-    margin-bottom: 3rem;
-  }
-}
 
 @media (max-width: 648px) {
   :global(.vtex-search-result-3-x-galleryItem--grid) .element {

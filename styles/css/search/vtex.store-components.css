@@ -45,3 +45,13 @@
   }
 }
 
+@media (max-width: 575px) {
+  .searchBarInnerContainer :global(.vtex-input__suffix) {
+    padding: 0 10px;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    padding: 0 10px 0 0;
+    font-size: 12px;
+  }
+}

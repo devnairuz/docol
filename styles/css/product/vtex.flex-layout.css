@@ -16,6 +16,11 @@
   padding: 0;
 }
 
+.flexCol--minicart-product-info {
+  position: relative;
+  z-index: 0;
+}
+
 @media (min-width: 1025px) {
   .flexRow--wrapper__product-actions {
     position: absolute;
