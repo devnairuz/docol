@@ -179,6 +179,7 @@
   justify-content: center;
   max-width: 272px;
   padding: 20px 10px 10px;
+  margin: auto;
 }
 
 /*instagram*/
@@ -206,7 +207,7 @@
   max-width: fit-content;
 }
 .flexRow--wrapper__product-actionsC {
-  padding: 0 20px;
+  padding: 20px 20px 0;
 }
 
 /* MINICART */

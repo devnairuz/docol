@@ -25,6 +25,10 @@
   text-transform: lowercase; 
 }
 
+.buttonShowMore--layout {
+  margin-top: 30px;
+}
+
 @media (max-width: 1024px) {
   .totalProducts--layout {
     color: #A2A2A2;

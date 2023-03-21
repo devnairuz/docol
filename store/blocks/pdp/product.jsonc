@@ -5,7 +5,11 @@
       "condition-layout.product#availability",
       "flex-layout.row#product-info-tabs",
       "flex-layout.row#product-related"
-    ]
+    ],
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
   },
 
   "condition-layout.product#availability": {

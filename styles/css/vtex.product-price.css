@@ -60,8 +60,10 @@
 }
 
 .installments--summary {
-  margin-bottom: 2rem;
-  font-size: 0.875rem;
+  margin: 4px 0 0;
+  padding: 0;
+  color: #202020;
+  font-size: 14px;
 }
 
 .savings--summaryPercentage {
@@ -77,6 +79,13 @@
   vertical-align: baseline;
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .installments--summary {
+    font-size: 10px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 648px) {

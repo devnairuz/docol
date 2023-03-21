@@ -46,6 +46,7 @@
 }
 .containerNormal {
   transition: all .3s linear;
+  padding-top: 14px;
 }
 
 .productNameContainer {

@@ -9,8 +9,9 @@
 
 /* FORMATO DE GRID */
 :global(.vtex-search-result-3-x-galleryItem--grid) .element {
-    padding: 10px;
-    height: 420px;
+  padding: 10px;
+  min-height: 445px;
+  justify-content: space-between;
 }
 
 @media (max-width: 648px) {

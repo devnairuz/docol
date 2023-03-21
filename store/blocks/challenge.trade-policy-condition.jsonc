@@ -1,0 +1,9 @@
+{
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login-docol",
+      "forbiddenRedirectPath": "/nao-autorizado",
+      "defaultContentVisibility": "hidden"
+    }
+  }
+}

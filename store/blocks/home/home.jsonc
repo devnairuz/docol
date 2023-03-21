@@ -23,14 +23,6 @@
     }
   },
 
-  "challenge.trade-policy-condition": {
-    "props": {
-      "redirectPath": "/login-docol",
-      "forbiddenRedirectPath": "/nao-autorizado",
-      "defaultContentVisibility": "hidden"
-    }
-  },
-
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
