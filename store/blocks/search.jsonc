@@ -23,6 +23,10 @@
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
+    },
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -34,6 +38,10 @@
         "simulationBehavior": "skip",
         "maxItemsPerPage": 12
       }
+    },
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -45,6 +53,10 @@
         "simulationBehavior": "skip",
         "maxItemsPerPage": 12
       }
+    },
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -56,6 +68,10 @@
         "simulationBehavior": "skip",
         "maxItemsPerPage": 12
       }
+    },
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
