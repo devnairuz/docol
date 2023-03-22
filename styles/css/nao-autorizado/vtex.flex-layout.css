@@ -98,3 +98,8 @@
 .flexRowContent--main-nao-autorizado :global(.vtex-my-account-1-x-phoneNumberSubContainer) {
   margin-bottom: 0;
 }
+
+:global(.vtex-my-account-1-x-documentsSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel) {
+  font-size: 0;
+  height: 19px;
+}

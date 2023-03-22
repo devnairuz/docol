@@ -1,0 +1,11 @@
+.documentsSubContainer .dataEntryLabel {
+  position: relative;
+}
+
+.documentsSubContainer .dataEntryLabel:after {
+  content: 'CPF';
+  position: absolute;
+  left: 0;
+  color: #3f3f40;
+  font-size: 16px;
+}
