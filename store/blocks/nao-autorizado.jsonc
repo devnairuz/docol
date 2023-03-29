@@ -71,7 +71,7 @@
 
   "rich-text#aviso-na": {
     "props": {
-      "text": "Olá, seu acesso ainda não foi aprovado pela **Docol**. Preencha seus dados abaixo corretamente e aguarde aprovação para acessar a loja."
+      "text": "Olá colaborador **Docol**, preencha seus dados abaixo corretamente e aguarde aprovação para acessar a loja."
     }
   }
 

@@ -103,3 +103,13 @@
   font-size: 0;
   height: 19px;
 }
+
+@media (max-width: 650px) { 
+  .flexRowContent--main-nao-autorizado :global(.vtex-pageHeader__container) {
+    margin-top: 4rem;
+  }
+
+  .flexRowContent--main-nao-autorizado :global(.vtex-rich-text-0-x-paragraph) {
+    width: 90%;
+  }
+}
