@@ -1,58 +1,46 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useProduct } from 'vtex.product-context';
 
 import styles from './productInfoTabs.css'
 
 const ProductInfoTabs = ({ children }) => {
-  const { product, loadingItem } = useProduct();
-  const [active, setActive] = useState('');
-  const [productInfos, setProductInfos] = useState([]);
+  const { product } = useProduct();
+  const [active, setActive] = useState(0);
   const [openTabHeader, setOpenTabHeader] = useState(false);
-  
-  useEffect(() => {
-    if(product && product?.properties?.length > 0) {
-      setProductInfos(product.properties)
-      setActive(product.properties[0].name)
-    } else {
-      setActive('Avaliações')
-    }
-  }, [product])
 
-  const handleBtnControl = (name) => {
-    setActive(name)
+  const handleBtnControl = (index) => {
+    setActive(index)
 
     setOpenTabHeader(!openTabHeader)
   }
-  
-  if (loadingItem) return
 
   return (
     <>
-    {productInfos?.length > 0 ? (
+      {product?.properties?.length > 0 ? (
       <div className={styles.productInfoTabs}>
         <div className={openTabHeader ? styles.tabHeaderOpen : styles.tabHeader}>
-          {productInfos?.map((info, index) => (
+          {product?.properties?.map((info, index) => (
             <button
               type="button"
-              onClick={() => handleBtnControl(info.name)}
+              onClick={() => handleBtnControl(index)}
               key={info.name}
               data-control-for={info.name}
-              className={`${styles.infoControl}${active === info.name ? ` ${styles.active}`:''}`}>{info.name}</button>
+              className={`${styles.infoControl}${active === index ? ` ${styles.active}`:''}`}>{info.name}</button>
           ))}
 
           {children && (
             <button
               type="button"
-              onClick={() => handleBtnControl('Avaliações')}
+              onClick={() => handleBtnControl(4)}
               key="Avaliações"
               data-control-for="Avaliações"
-              className={`${styles.infoControl}${active === "Avaliações" ? ` ${styles.active}`:''}`}>Avaliações</button>
+              className={`${styles.infoControl}${active === 4 ? ` ${styles.active}`:''}`}>Avaliações</button>
           )}
         </div>
 
-        {productInfos?.map((info, index) => (
+        {product?.properties?.map((info, index) => (
           <div
-            className={`${styles.tabContent}${active === info.name ? ` ${styles.active}`:''}`}
+            className={`${styles.tabContent}${active === index ? ` ${styles.active}`:''}`}
             key={index}
             data-content-for={info.name}
             dangerouslySetInnerHTML={{__html: info.values}}
@@ -61,7 +49,7 @@ const ProductInfoTabs = ({ children }) => {
 
         {children && (
         <div
-          className={`${styles.tabContent}${active === "Avaliações" ? ` ${styles.active}`:''}`}
+          className={`${styles.tabContent}${active === 4 ? ` ${styles.active}`:''}`}
           key="Avaliações"
           data-content-for="Avaliações"
         >
@@ -75,16 +63,16 @@ const ProductInfoTabs = ({ children }) => {
           {children && (
             <button
               type="button"
-              onClick={() => handleBtnControl('Avaliações')}
+              onClick={() => handleBtnControl(0)}
               key="Avaliações"
               data-control-for="Avaliações"
-              className={`${styles.infoControl}${active === "Avaliações" ? ` ${styles.active}`:''}`}>Avaliações</button>
+              className={`${styles.infoControl}${active === 0 ? ` ${styles.active}`:''}`}>Avaliações</button>
           )}
         </div>
 
         {children && (
         <div
-          className={`${styles.tabContent}${active === "Avaliações" ? ` ${styles.active}`:''}`}
+          className={`${styles.tabContent}${active === 0 ? ` ${styles.active}`:''}`}
           key="Avaliações"
           data-content-for="Avaliações"
         >
