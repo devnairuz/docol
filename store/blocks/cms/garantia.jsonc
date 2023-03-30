@@ -1,0 +1,85 @@
+{
+  "store.custom#garantia": {
+    "children": [
+      "flex-layout.row#garantia"
+    ]
+  },
+  "flex-layout.row#garantia": {
+    "children": ["flex-layout.col#garantiaconteudo"]
+  },
+  "flex-layout.col#garantiaconteudo": {
+    "children": [
+      "rich-text#garantia-title",
+      "rich-text#sobregarantia",
+      "rich-text#sobregarantia--oque",
+      "rich-text#sobregarantia--quais",
+      "rich-text#sobregarantia--como-funciona",
+      "rich-text#sobregarantia--qualidade",
+      "rich-text#sobregarantia--cadastro-notas",
+      "rich-text#sobregarantia--como-solicitar"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#garantia-title": {
+    "props": {
+      "text": "# Garantia"
+    }
+  },
+  "rich-text#sobregarantia": {
+    "props": {
+      "text": "## Garantia Toda Vida: para que seus melhores momentos durem para sempre\nNosso pensamento sustentável e a confiança na qualidade de nosso processo fabril e produtos nos permitiram ser a primeira marca de metais e louças sanitárias brasileira a oferecer garantia sem limite de tempo*. Uma garantia de que nossos produtos podem atravessar gerações e gerações de sua família, estando sempre perto nos melhores momentos e colaborando para que eles durem para sempre.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--oque": {
+    "props": {
+      "text": "### O que é?\nÉ o compromisso assumido pela Docol com seus clientes, que assegura *garantia por toda vida para os produtos instalados em residências. Esse benefício é pioneiro no segmento de metais e exclusivo no de louças sanitárias.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--quais": {
+    "props": {
+      "text": "### Quais produtos possuem essa garantia?\nProdutos adquiridos e instalados em território nacional e para uso residencial. Consulte com atenção o termo de garantia antes de efetuar o cadastro.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--como-funciona": {
+    "props": {
+      "text": "### Como funciona?\nA Docol lançou esse benefício em março de 2015 e todos os produtos adquiridos para sua residência desde então, podem contar com essa garantia. Isso significa que se você identificar algum problema de fabricação em nossos produtos, a qualquer tempo de uso, pode contar com nossa rede de assistência especializada para resolver o problema ou trocar a peça imediatamente. O benefício é estendido às louças e metais da marca, adquiridos no Brasil e instalados em residências, exceto produtos eletrônicos que tem uma garantia específica.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--qualidade": {
+    "props": {
+      "text": "## Só quem confia na qualidade de seus produtos pode oferecer uma garantia assim\nVocê tem em sua casa algum produto com garantia ilimitada? É bem díficil, né? A maioria dos itens para casa tem prazo de validade, que, até pode ser longo, mas geralmente finito. Um sofá, por exemplo, possui garantia média de 90 dias, já uma geladeira, cerca de 1 ano.\nNosso pensamento sustentável e a confiança na qualidade de nosso processo fabril e produtos nos permitiram ser a primeira marca de metais e louças sanitárias brasileira a oferecer garantia sem limite de tempo*. Uma garantia de que nossos produtos podem atravessar gerações e gerações de sua família, estando sempre perto nos melhores momentos e colaborando para que eles durem para sempre.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--cadastro-notas": {
+    "props": {
+      "text": "### Cadastro de Notas\nPara que a garantia seja válida você precisa cadastrar a nota fiscal de compra do produto em nosso site até 90 dias após a compra. É bem fácil, vamos apenas pedir algumas informações, fazer a verificação e enviar uma confirmação para seu email. Esse processo garante que guardaremos as informações da nota fiscal para você e se um dia precisar acionar o serviço, teremos todo o histórico aqui.Muito mais prático e seguro.\n1. Compre seu produto Docol nas lojas\n2. Acesse o site da Docol e cadastre suas Notas Fiscais\n3. Receba a confirmação da NF por email\n4. Quando precisar, acione nosso atendimento DResponde e informe seu problema\n5. Passe o nº de seu protocolo ou solicite acesso ao seu cadastro pelo nome completo ou CPF. Agende seu atendimento.\n6. Receba o atendimento da nossa rede de assistência técnica.\n7. Aproveite seu produto novo!",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#sobregarantia--como-solicitar": {
+    "props": {
+      "text": "### Como eu posso solicitar?\nPreencha o formulário abaixo no prazo de 3 (três) meses após a compra dos produtos, ou apresente a nota fiscal de aquisição à Assistência Técnica Docol.\n<a class='btn' href='https://docolresponde.zendesk.com/hc/pt-br/sections/360006423014-Cadastro-da-Garantia-Toda-Vida' target='_blank' rel='noopener noreferrer'>Cadastre-se</a>",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

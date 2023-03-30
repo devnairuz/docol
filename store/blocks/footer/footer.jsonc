@@ -279,19 +279,19 @@
   },
   "rich-text#devolucao": {
     "props": {
-      "text": "[Políticas de Vendas](/politicas-de-vendas)",
+      "text": "[Políticas de Privacidade](/politicas-de-privacidade)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#privacidade": {
     "props": {
-      "text": "[Políticas de Trocas](/politicas-de-trocas)",
+      "text": "[Política de Qualidade](/politica-de-qualidade)",
       "blockClass": "rodapelinks"
     }
   },
   "rich-text#cancelamento": {
     "props": {
-      "text": "[Cancelamentos](/cancelamentos)",
+      "text": "[Garantia](/garantia)",
       "blockClass": "rodapelinks"
     }
   },

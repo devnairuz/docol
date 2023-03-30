@@ -1,0 +1,85 @@
+{
+  "store.custom#politica-de-qualidade": {
+    "children": [
+      "flex-layout.row#politica-de-qualidade"
+    ]
+  },
+  "flex-layout.row#politica-de-qualidade": {
+    "children": ["flex-layout.col#politica-de-qualidadeconteudo"]
+  },
+  "flex-layout.col#politica-de-qualidadeconteudo": {
+    "children": [
+      "rich-text#politica-de-qualidade-title",
+      "rich-text#sobrepolitica-de-qualidade",
+      "rich-text#certificados",
+      "rich-text#certificado-iso",
+      "rich-text#certificado-PBQP-H",
+      "rich-text#certificado-consumo",
+      "rich-text#certificado-dispensador",
+      "rich-text#certificado-toalheiro"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#politica-de-qualidade-title": {
+    "props": {
+      "text": "# Política de Qualidade"
+    }
+  },
+  "rich-text#sobrepolitica-de-qualidade": {
+    "props": {
+      "text": "Trabalhamos para garantir qualidade e satisfação. Aperfeiçoar as técnicas utilizadas na produção, oferecer tecnologia de ponta sempre antecipando soluções para o futuro e se preocupando com o meio ambiente.\nAdotamos um Sistema de Gestão da Qualidade com foco na Satisfação dos Clientes, na melhoria contínua de nossos processos e produtos e no atendimento aos requisitos aplicáveis. Fornecemos os melhores produtos e serviços ao mercado em que atuamos.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificados": {
+    "props": {
+      "text": "## Nossos certificados\nA Docol tem participação ativa em comissões de normatização da Associação Brasileira de Normas Técnicas (ABNT) e presta informações ao consumidor com o DocolResponde (0800-474333) e o DocolTelevendas (0800-474900).",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificado-iso": {
+    "props": {
+      "text": "### Certificaçāo ISO\nA Docol recebeu certificações concedidas pelo órgão regulador BRTÜV, pertencente ao TÜV Nord Group, da Alemanha:\n1997 – conformidade com a NBR ISO 9002 para a fabricação de válvulas de descarga.\n2003 – conformidade com a NBR ISO 9001:2000, que contempla válvulas de descarga, registro de pressão, registro de gaveta e a família DocolMatic.\n2009 – conformidade com a NBR ISO 9001:2008 para projeto, desenvolvimento, fabricação e assistência técnica das famílias DocolSystem, DocolMatic e DocolBásicos.\n2018 – conformidade com a NBR ISO 9001:2015 para projeto, desenvolvimento, fabricação e assistência técnica de metais sanitários, válvulas hidráulicas e aparelhos economizadores de água destinados a instalações hidráulicas prediais e saneamento.\n2022 – A Docol alcançou um marco em sua trajetória de conquistas e sucesso, em conformidade com a ISO 14001:2015 validada pelo órgão certificador BRTÜV na área de Desenvolvimento, Fabricação, Comercialização e Assistência Técnica de Pias, Cubas, Tanques, Mictórios, Ralos e Válvulas em Aço Inox para Uso Residencial.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificado-PBQP-H": {
+    "props": {
+      "text": "### PBQP-H: Docol é Pioneira\nA Docol foi uma das pioneiras em conformidade com o Programa Brasileiro de Qualidade e Produtividade do Habitat (PBQP-H), criado em 1998 pelo Governo Federal para melhorar a qualidade do habitat humano e modernizar a produção no setor.\nEm 2006, o PBQP-H atestou a qualificação dos produtos Docol no “Programa de Garantia da Qualidade dos Metais Sanitários e Aparelhos Economizadores de Água”.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificado-consumo": {
+    "props": {
+      "text": "### Certificação Equipamentos para consumo de água\nA linha de purificados Docolvitalis está certificada pela SGS Brasil.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificado-dispensador": {
+    "props": {
+      "text": "### Certificação Dispensador Elétrico para Sabão\nOs produtos Dispensador elétrico para sabão Docoleletric e Presence estão certificados pela SGS Brasil.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+
+  "rich-text#certificado-toalheiro": {
+    "props": {
+      "text": "### Certificação Toalheiro Térmico Docolcozy\nOs produtos Toalheiro térmico Docolcozy estão certificados pela SGS Brasil.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

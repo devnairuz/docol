@@ -1,28 +1,28 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
-  },
-  "store.custom#faq": {
-    "path": "/faq"
-  },
-  "store.custom#contact-us": {
-    "path": "/contact-us"
-  },
   "store.custom#fale-conosco": {
     "path": "/fale-conosco"
   },
+
   "store.custom#quem-somos": {
     "path": "/quem-somos"
   },
-  "store.custom#garantia": {
-    "path": "/garantia"
+
+  "store.custom#frete-gratis": {
+    "path": "/frete-gratis"
   },
-  "store.custom#devolucoes-trocas": {
-    "path": "/devolucoes-e-trocas"
-  },
+
   "store.custom#politicaprivacidade": {
     "path": "/politicas-de-privacidade"
   },
+
+  "store.custom#politica-de-qualidade": {
+    "path": "/politica-de-qualidade"
+  },
+  
+  "store.custom#garantia": {
+    "path": "/garantia"
+  },
+
   "store.custom#login-docol": {
     "path": "/login-docol"
   },
