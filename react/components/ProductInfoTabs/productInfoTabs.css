@@ -39,10 +39,10 @@
   display: flex;
   gap: 50px;
 }
-.tabContent[data-content-for="Manual de Instalação"] p {
+.tabContent:not([data-content-for="Detalhes do produto"]) p {
   margin: 0;
 }
-.tabContent[data-content-for="Manual de Instalação"] a {
+.tabContent:not([data-content-for="Detalhes do produto"]) a[href$=".pdf"] {
   display: inline-block;
   padding: 12px 18px 12px 40px;
   border: 1px solid #00A9E0;
@@ -53,7 +53,7 @@
   position: relative;
   z-index: 0;
 }
-.tabContent[data-content-for="Manual de Instalação"] a::before {
+.tabContent a[href$=".pdf"]::before {
   content: '';
   position: absolute;
   z-index: 0;

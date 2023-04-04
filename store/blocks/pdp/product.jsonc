@@ -147,6 +147,7 @@
 
   "add-to-cart-button#pdp":{
     "props": {
+      "isOneClickBuy": true,
       "text": "Compre Agora",
       "width": "75%"
     }
