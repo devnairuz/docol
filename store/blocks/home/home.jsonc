@@ -11,11 +11,11 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelf-title-lancamentos",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf2",
       "rich-text#shelf-title-mais-vendidos",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf3",
       "rich-text#shelf-title-destaques",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf4",
       "flex-layout.row#mosaico_baixo"
     ],
     "parent": {
@@ -24,6 +24,7 @@
   },
 
   "list-context.image-list#demo": {
+    "title": "Banner Full Topo",
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 570,
@@ -68,24 +69,28 @@
 
   // LISTAGEM TÍTULO
   "rich-text#shelf-title": {
+    "title": "Título Vitrine - 1",
     "props": {
       "text": "**Outlet**",
       "blockClass": "shelfTitle"
     }
   },
   "rich-text#shelf-title-lancamentos":{
+    "title": "Título Vitrine - 2",
     "props": {
       "text": "**Lançamentos**",
       "blockClass": ["shelfTitle", "text_halfbar"]
     }
   },
   "rich-text#shelf-title-mais-vendidos":{
+    "title": "Título Vitrine - 3",
     "props": {
       "text": "**Mais vendidos**",
       "blockClass": ["shelfTitle", "text_mais"]
     }
   },
   "rich-text#shelf-title-destaques":{
+    "title": "Título Vitrine - 4",
     "props": {
       "text": "**Destaques**",
       "blockClass": ["shelfTitle", "text_dest"]
@@ -94,6 +99,7 @@
 
   // LISTAGEM - PRODUTO
   "flex-layout.row#shelf": {
+    "title": "Vitrine - 1",
     "children": ["flex-layout.col#grid1"]
   },
   "flex-layout.col#grid1": {
@@ -122,6 +128,102 @@
       "blockClass": ["shelf", "shelf-carousel"]
     }
   },
+
+    // LISTAGEM - PRODUTO
+    "flex-layout.row#shelf2": {
+      "title": "Vitrine - 2",
+      "children": ["flex-layout.col#grid2"]
+    },
+    "flex-layout.col#grid2": {
+      "children": ["list-context.product-list#demo2"],
+      "props": {
+        "blockClass": ["container","grid-produtos-krauer"]
+      }
+    },
+    "list-context.product-list#demo2": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+    "slider-layout#demo-products": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 2
+        },
+        "infinite": true,
+        "paginationDot": false,
+        "fullWidth": true,
+        "blockClass": ["shelf", "shelf-carousel"]
+      }
+    },
+
+      // LISTAGEM - PRODUTO
+  "flex-layout.row#shelf3": {
+    "title": "Vitrine - 3",
+    "children": ["flex-layout.col#grid3"]
+  },
+  "flex-layout.col#grid3": {
+    "children": ["list-context.product-list#demo3"],
+    "props": {
+      "blockClass": ["container","grid-produtos-krauer"]
+    }
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "paginationDot": false,
+      "fullWidth": true,
+      "blockClass": ["shelf", "shelf-carousel"]
+    }
+  },
+
+    // LISTAGEM - PRODUTO
+    "flex-layout.row#shelf4": {
+      "title": "Vitrine - 4",
+      "children": ["flex-layout.col#grid4"]
+    },
+    "flex-layout.col#grid4": {
+      "children": ["list-context.product-list#demo4"],
+      "props": {
+        "blockClass": ["container","grid-produtos-krauer"]
+      }
+    },
+    "list-context.product-list#demo4": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+    "slider-layout#demo-products": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 2
+        },
+        "infinite": true,
+        "paginationDot": false,
+        "fullWidth": true,
+        "blockClass": ["shelf", "shelf-carousel"]
+      }
+    },
 
   "info-card#home": { 
     "props": {

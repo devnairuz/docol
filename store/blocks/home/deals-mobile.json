@@ -1,5 +1,6 @@
 {
   "flex-layout.row#dealsmob": {
+    "title": "Benefícios Mobile",
     "children": ["flex-layout.col#benemob"]
   },
 

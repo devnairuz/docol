@@ -1,5 +1,6 @@
 {
   "flex-layout.row#deals": {
+    "title": "Barra de Beneficios",
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",

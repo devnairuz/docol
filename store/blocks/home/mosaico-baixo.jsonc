@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mosaico_baixo":{
+        "title": "Mosaico - Final",
         "props": {"blockClass": ["wrapper__mosaicos", "wrapper__mosaicos--baixo"]},
         "children": [
             "flex-layout.col#mosaico_baixo-one",
