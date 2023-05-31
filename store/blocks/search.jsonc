@@ -108,6 +108,7 @@
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
+      "blockClass": "products-result-grid",
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
@@ -187,7 +188,7 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
-      "flex-layout.row#fetchprevious",
+      //"flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
     ],
@@ -203,6 +204,7 @@
   "flex-layout.row#contentmobile": {
     "children": ["search-content"],
     "props": {
+      "blockClass": "products-result-grid",
       "preserveLayoutOnMobile": true
     }
   },

@@ -36,4 +36,10 @@
   justify-content: initial;
 }
 
-
+@media (max-width: 767px) {
+  :global(.vtex-flex-layout-10-x-flexRow--productCountMobileRow) :global(.vtex-store-components-3-x-container),
+  :global(.vtex-flex-layout-0-x-flexRow--grid-list-info) :global(.vtex-store-components-3-x-container),
+  :global(.vtex-flex-layout-0-x-flexRow--products-result-grid) :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+}
